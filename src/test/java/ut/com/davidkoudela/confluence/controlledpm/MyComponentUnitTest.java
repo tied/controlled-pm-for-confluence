@@ -1,8 +1,8 @@
-package ut.com.davidkoudela.confluence.controlled-pm-for-confluence;
+package ut.com.davidkoudela.confluence.controlledpm;
 
 import org.junit.Test;
-import com.davidkoudela.confluence.controlled-pm-for-confluence.api.MyPluginComponent;
-import com.davidkoudela.confluence.controlled-pm-for-confluence.impl.MyPluginComponentImpl;
+import com.davidkoudela.confluence.controlledpm.api.MyPluginComponent;
+import com.davidkoudela.confluence.controlledpm.impl.MyPluginComponentImpl;
 
 import static org.junit.Assert.assertEquals;
 

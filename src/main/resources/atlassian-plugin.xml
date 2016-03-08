@@ -8,17 +8,17 @@
     </plugin-info>
 
     <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="controlled-pm-for-confluence"/>
+    <resource type="i18n" name="i18n" location="controlledpm"/>
     
     <!-- add our web resources -->
-    <web-resource key="controlled-pm-for-confluence-resources" name="controlled-pm-for-confluence Web Resources">
+    <web-resource key="controlledpm-resources" name="controlledpm Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
         
-        <resource type="download" name="controlled-pm-for-confluence.css" location="/css/controlled-pm-for-confluence.css"/>
-        <resource type="download" name="controlled-pm-for-confluence.js" location="/js/controlled-pm-for-confluence.js"/>
+        <resource type="download" name="controlledpm.css" location="/css/controlledpm.css"/>
+        <resource type="download" name="controlledpm.js" location="/js/controlledpm.js"/>
         <resource type="download" name="images/" location="/images"/>
 
-        <context>controlled-pm-for-confluence</context>
+        <context>controlledpm</context>
     </web-resource>
     
 </atlassian-plugin>

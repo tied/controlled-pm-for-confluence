@@ -14,8 +14,8 @@
         <url>http://www.example.com/</url>
     </organization>
 
-    <name>controlled-pm-for-confluence</name>
-    <description>This is the com.davidkoudela.confluence:controlled-pm-for-confluence plugin for Atlassian Confluence.</description>
+    <name>Controlled PM for Confluence</name>
+    <description>This is the Controlled PM plugin for Atlassian Confluence.</description>
     <packaging>atlassian-plugin</packaging>
 
     <dependencies>
@@ -93,7 +93,7 @@
 
                         <!-- Add package to export here -->
                         <Export-Package>
-                            com.davidkoudela.confluence.controlled-pm-for-confluence.api,
+                            com.davidkoudela.confluence.controlledpm.api,
                         </Export-Package>
 
                         <!-- Add package import here -->

@@ -1,9 +1,9 @@
-package com.davidkoudela.confluence.controlled-pm-for-confluence.impl;
+package com.davidkoudela.confluence.controlledpm.impl;
 
 import com.atlassian.plugin.spring.scanner.annotation.export.ExportAsService;
 import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
 import com.atlassian.sal.api.ApplicationProperties;
-import com.davidkoudela.confluence.controlled-pm-for-confluence.api.MyPluginComponent;
+import com.davidkoudela.confluence.controlledpm.api.MyPluginComponent;
 
 import javax.inject.Inject;
 import javax.inject.Named;

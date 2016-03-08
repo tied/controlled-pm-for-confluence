@@ -1,9 +1,9 @@
-package it.com.davidkoudela.confluence.controlled-pm-for-confluence;
+package it.com.davidkoudela.confluence.controlledpm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import com.atlassian.plugins.osgi.test.AtlassianPluginsTestRunner;
-import com.davidkoudela.confluence.controlled-pm-for-confluence.api.MyPluginComponent;
+import com.davidkoudela.confluence.controlledpm.api.MyPluginComponent;
 import com.atlassian.sal.api.ApplicationProperties;
 
 import static org.junit.Assert.assertEquals;
