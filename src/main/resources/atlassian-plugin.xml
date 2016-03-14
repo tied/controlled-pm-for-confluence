@@ -18,7 +18,7 @@
         <resource type="download" name="controlledpm.js" location="/js/controlledpm.js"/>
         <resource type="download" name="images/" location="/images"/>
 
-        <context>controlledpm</context>
+        <context>controlled-pm-for-confluence</context>
     </web-resource>
     
 </atlassian-plugin>
