@@ -8,7 +8,7 @@
     </plugin-info>
 
     <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="controlledpm"/>
+    <resource type="i18n" name="i18n" location="controlled-pm-for-confluence"/>
     
     <!-- add our web resources -->
     <web-resource key="controlledpm-resources" name="controlledpm Web Resources">
@@ -20,5 +20,20 @@
 
         <context>controlled-pm-for-confluence</context>
     </web-resource>
-    
+
+    <!--  Template for Blueprint -->
+    <content-template key="controlledpm-bptemplate" template-title-key="controlledpm.blueprint.title">
+        <resource name="template" type="download" location="/bptemplates/basic.xml" />
+    </content-template>
+
+    <!--  Add to the Create Menu -->
+    <web-item key="controlledpm-bptemplate-link" i18n-name-key="controlledpm.blueprint.link.title" section="system.create.dialog/content">
+        <description key="controlledpm.blueprint.link.description"/>
+        <resource name="icon" type="download" location="/images/blueprintIcon.png" />
+        <param name="blueprintKey" value="controlledpm-blueprint" />
+    </web-item>
+
+    <!--  Blueprint -->
+    <blueprint key="controlledpm-blueprint" content-template-key="controlledpm-bptemplate" index-key="controlledpm-index" />
+
 </atlassian-plugin>
