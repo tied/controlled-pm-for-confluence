@@ -13,17 +13,36 @@
     <!-- add our web resources -->
     <web-resource key="controlledpm-resources" name="controlledpm Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
+        <dependency>com.atlassian.confluence.plugins.confluence-create-content-plugin:resources</dependency>
+
+        <!-- Added dependencies due to Confluence errors in the logs -->
+        <dependency>com.atlassian.auiplugin:aui-experimental-soy</dependency>
+        <dependency>confluence.extra.jira:web-resources-adg</dependency>
+
+        <transformation extension="soy">
+            <transformer key="soyTransformer">
+                <functions>com.atlassian.confluence.plugins.soy:soy-core-functions
+                </functions>
+            </transformer>
+        </transformation>
         
         <resource type="download" name="controlledpm.css" location="/css/controlledpm.css"/>
         <resource type="download" name="controlledpm.js" location="/js/controlledpm.js"/>
+        <resource type="download" name="controlledpm-soy.js" location="/soy/controlledpm.soy" />
         <resource type="download" name="images/" location="/images"/>
 
         <context>controlled-pm-for-confluence</context>
+        <!-- Added contexts for blueprint dialog wizard, otherwise soy templates cannot not found -->
+        <context>atl.general</context>
+        <context>atl.admin</context>
     </web-resource>
 
-    <!--  Template for Blueprint -->
-    <content-template key="controlledpm-bptemplate" template-title-key="controlledpm.blueprint.title">
+    <!--  Templates for Blueprint -->
+    <content-template key="controlledpm-bptemplate-basic" template-title-key="controlledpm.blueprint.basic.title" i18n-name-key="controlledpm.blueprint.basic.title">
         <resource name="template" type="download" location="/bptemplates/basic.xml" />
+    </content-template>
+    <content-template key="controlledpm-bptemplate-advanced" template-title-key="controlledpm.blueprint.advanced.title" i18n-name-key="controlledpm.blueprint.advanced.title">
+        <resource name="template" type="download" location="/bptemplates/advanced.xml" />
     </content-template>
 
     <!--  Add to the Create Menu -->
@@ -34,6 +53,16 @@
     </web-item>
 
     <!--  Blueprint -->
-    <blueprint key="controlledpm-blueprint" content-template-key="controlledpm-bptemplate" index-key="controlledpm-index" />
+    <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
+        <content-template ref="controlledpm-bptemplate-basic"/>
+        <content-template ref="controlledpm-bptemplate-advanced"/>
+        <dialog-wizard key="controlledpm-wizard">
+            <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"
+                         title-key="controlledpm.blueprint.wizard.page1.title"
+                         description-header-key="controlledpm.blueprint.wizard.page1.desc.header"
+                         description-content-key="controlledpm.blueprint.wizard.page1.desc.content"
+                         last="true"/>
+        </dialog-wizard>
+    </blueprint>
 
 </atlassian-plugin>

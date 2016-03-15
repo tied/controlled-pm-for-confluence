@@ -1,0 +1,17 @@
+{namespace Controlledpm.Blueprints}
+/**
+ *  A generic form that selects the right template
+ */
+{template .page1Form}
+<form action="#" method="post" class="aui">
+    <fieldset>
+        <div class="field-group">
+            <label for="template-key">{getText('controlledpm.blueprint.form.label.templatekey')}</label>
+            <select id="template-key" class="select" name="contentTemplateKey">
+                <option value="controlledpm-bptemplate-basic">{getText('controlledpm.blueprint.basic.title')}</option>
+                <option value="controlledpm-bptemplate-advanced">{getText('controlledpm.blueprint.advanced.title')}</option>
+            </select>
+        </div>
+    </fieldset>
+</form>
+{/template}

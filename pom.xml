@@ -53,6 +53,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- User Added -->
+        <dependency>
+            <groupId>com.atlassian.confluence.plugins</groupId>
+            <artifactId>confluence-create-content-plugin</artifactId>
+            <version>${create.content.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- WIRED TEST RUNNER DEPENDENCIES -->
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
@@ -142,6 +150,8 @@
         <atlassian.spring.scanner.version>1.2.6</atlassian.spring.scanner.version>
         <!-- This key is used to keep the consistency between the key in atlassian-plugin.xml and the key to generate bundle. -->
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
+        <!-- User Added -->
+        <create.content.version>4.0.9</create.content.version>
     </properties>
 
 </project>
