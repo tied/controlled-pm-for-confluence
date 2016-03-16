@@ -3,6 +3,10 @@
 <table>
 <tbody>
     <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
         <th>Project Name:</th>
         <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
     </tr>
@@ -22,8 +26,31 @@
         <th>Owner:</th>
         <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
     </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+    </tr>
 </tbody>
 </table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
 
 <h2>Executive Summary</h2>
 <p>
