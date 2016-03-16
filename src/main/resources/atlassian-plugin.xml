@@ -44,8 +44,8 @@
     <content-template key="controlledpm-bptemplate-advanced" template-title-key="controlledpm.blueprint.advanced.title" i18n-name-key="controlledpm.blueprint.advanced.title">
         <resource name="template" type="download" location="/bptemplates/advanced.xml" />
     </content-template>
-    <content-template key="controlledpm-bptemplate-business-case" template-title-key="controlledpm.blueprint.businesscase.title" i18n-name-key="controlledpm.blueprint.businesscase.title">
-        <resource name="template" type="download" location="/bptemplates/business-case.xml" />
+    <content-template key="controlledpm-bptemplate-businesscase" template-title-key="controlledpm.blueprint.businesscase.title" i18n-name-key="controlledpm.blueprint.businesscase.title">
+        <resource name="template" type="download" location="/bptemplates/businesscase.xml" />
     </content-template>
 
     <!--  Add to the Create Menu -->
@@ -59,7 +59,7 @@
     <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
         <content-template ref="controlledpm-bptemplate-basic"/>
         <content-template ref="controlledpm-bptemplate-advanced"/>
-        <content-template ref="controlledpm-bptemplate-business-case"/>
+        <content-template ref="controlledpm-bptemplate-businesscase"/>
         <dialog-wizard key="controlledpm-wizard">
             <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"
                          title-key="controlledpm.blueprint.wizard.page1.title"

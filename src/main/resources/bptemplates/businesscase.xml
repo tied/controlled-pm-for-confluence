@@ -1,5 +1,30 @@
 <h1>Business Case</h1>
 
+<table>
+<tbody>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><time datetime="2015-12-10" /></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
 <h2>Executive Summary</h2>
 <p>
 <ac:placeholder>Highlight the key points in the Business Case, which should include important benefits and the return on investment (ROI)).</ac:placeholder>
@@ -18,13 +43,13 @@
 <h2>Expected Benefits</h2>
 <p>
 <ac:placeholder>The benefits that the project will deliver expressed in measurable terms against the situation as it exists prior to the project. Benefits should be both qualitative and quantitative. They should be aligned to corporate or programme benefits. Tolerances
-should be set for each benefit and for the aggregated benefit. Any benefits realization requirements should be stated.</ac:placeholder>
+    should be set for each benefit and for the aggregated benefit. Any benefits realization requirements should be stated.</ac:placeholder>
 </p>
 
 <h2>Expected Dis-benefits</h2>
 <p>
 <ac:placeholder>Outcomes perceived as negative by one or more stakeholders. Dis-benefits are actual consequences of an activity whereas, by definition, a risk has some uncertainty about whether it will materialize. For example, a decision to merge two elements of an organization onto a new site may have benefits (e.g. better joint working), costs (e.g. expanding one of the two sites) and dis-benefits (e.g. drop in productivity during the
-merger). Dis-benefits need to be valued and incorporated into the investment appraisal.</ac:placeholder>
+    merger). Dis-benefits need to be valued and incorporated into the investment appraisal.</ac:placeholder>
 </p>
 
 <h2>Timescale</h2>
