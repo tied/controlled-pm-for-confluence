@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <th>Date:</th>
-        <td><time datetime="2015-12-10" /></td>
+        <td><time datetime="2015-12-10" /> <span id="theCurrentDate">Span</span><p id="theP">The P</p><ac:placeholder ac:type="example">Example text...</ac:placeholder></td>
     </tr>
     <tr>
         <th>Release:</th>
