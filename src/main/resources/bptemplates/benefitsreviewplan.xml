@@ -70,20 +70,20 @@
     <tr>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>The person who is accountable for the expected benefits</ac:placeholder></td>
+        <td><ac:placeholder>Describe how to measure achievement of expected benefits</ac:placeholder></td>
+        <td><ac:placeholder>Describe when achievement of expected benefits can be measured</ac:placeholder></td>
+        <td><ac:placeholder>What resources are needed to carry our the review work</ac:placeholder></td>
+        <td><ac:placeholder>Baseline measures from which the improvements will be calculated</ac:placeholder></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>The person who is accountable for the expected benefits</ac:placeholder></td>
+        <td><ac:placeholder>Describe how to measure achievement of expected benefits</ac:placeholder></td>
+        <td><ac:placeholder>Describe when achievement of expected benefits can be measured</ac:placeholder></td>
+        <td><ac:placeholder>What resources are needed to carry our the review work</ac:placeholder></td>
+        <td><ac:placeholder>Baseline measures from which the improvements will be calculated</ac:placeholder></td>
     </tr>
 </tbody>
 </table>
