@@ -68,6 +68,10 @@
         <resource name="template" type="download" location="/bptemplates/businesscase.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-dailylog" template-title-key="controlledpm.blueprint.dailylog.title" i18n-name-key="controlledpm.blueprint.dailylog.title">
+        <resource name="template" type="download" location="/bptemplates/dailylog.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
 
     <!--  Add to the Create Menu -->
     <web-item key="controlledpm-bptemplate-link" i18n-name-key="controlledpm.blueprint.link.title" section="system.create.dialog/content">
@@ -82,6 +86,7 @@
         <content-template ref="controlledpm-bptemplate-advanced"/>
         <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
+        <content-template ref="controlledpm-bptemplate-dailylog"/>
         <dialog-wizard key="controlledpm-wizard">
             <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"
                          title-key="controlledpm.blueprint.wizard.page1.title"
