@@ -1,3 +1,4 @@
+/*
 (function($) {
     tinymce.create('tinymce.plugins.InstructionalTextExample', {
         init : function(ed) {
@@ -45,7 +46,7 @@
                         console.log("DKOUDELA: HURRRAAAA !!!");
                     }
                 });
-                */
+                *//*
             });
         },
         getInfo : function() {
@@ -65,3 +66,4 @@ AJS.Rte.BootstrapManager.addTinyMcePluginInit(function(settings) {
     console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -DK01- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     settings.plugins += ",instructionaltextexample";
 });
+*/

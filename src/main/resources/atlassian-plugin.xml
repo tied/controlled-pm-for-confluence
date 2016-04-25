@@ -60,6 +60,10 @@
     <content-template key="controlledpm-bptemplate-advanced" template-title-key="controlledpm.blueprint.advanced.title" i18n-name-key="controlledpm.blueprint.advanced.title">
         <resource name="template" type="download" location="/bptemplates/advanced.xml" />
     </content-template>
+    <content-template key="controlledpm-bptemplate-benefitsreviewplan" template-title-key="controlledpm.blueprint.benefitsreviewplan.title" i18n-name-key="controlledpm.blueprint.benefitsreviewplan.title">
+        <resource name="template" type="download" location="/bptemplates/benefitsreviewplan.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-businesscase" template-title-key="controlledpm.blueprint.businesscase.title" i18n-name-key="controlledpm.blueprint.businesscase.title">
         <resource name="template" type="download" location="/bptemplates/businesscase.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -76,6 +80,7 @@
     <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
         <content-template ref="controlledpm-bptemplate-basic"/>
         <content-template ref="controlledpm-bptemplate-advanced"/>
+        <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
         <dialog-wizard key="controlledpm-wizard">
             <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"

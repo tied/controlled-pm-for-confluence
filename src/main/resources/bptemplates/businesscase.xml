@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <th>Date:</th>
-        <td><time datetime="2015-12-10" /> <span id="theCurrentDate">Span</span><p id="theP">The P</p><ac:placeholder ac:type="example">Example text...</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
     </tr>
     <tr>
         <th>Release:</th>
@@ -20,15 +20,15 @@
     </tr>
     <tr>
         <th>Author:</th>
-        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
     </tr>
     <tr>
         <th>Owner:</th>
-        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
     </tr>
     <tr>
         <th>Client:</th>
-        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
     </tr>
 </tbody>
 </table>
@@ -41,11 +41,11 @@
         <th>Title</th>
     </tr>
     <tr>
-        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><ac:placeholder>Enter Title here</ac:placeholder></td>
     </tr>
     <tr>
-        <td><ac:placeholder ac:type="mention">usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><ac:placeholder>Enter Title here</ac:placeholder></td>
     </tr>
 </tbody>

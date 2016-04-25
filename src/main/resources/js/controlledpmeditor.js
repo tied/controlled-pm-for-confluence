@@ -1,3 +1,4 @@
+/*
 AJS.$(document).ready(function() {
     console.log("!!! DKOUDELA AJS CALLED !!!");
     //AJS.$("#theCurrentDate").set("datetime", "2001-01-01");
@@ -30,6 +31,7 @@ AJS.$(document).ready(function() {
             span = $(this);
         }
     });
-*/
+*//*
     console.log("!!! DKOUDELA AJS ENDED !!!");
 });
+*/
