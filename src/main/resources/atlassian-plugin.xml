@@ -54,12 +54,6 @@
     </web-resource>
 
     <!--  Templates for Blueprint -->
-    <content-template key="controlledpm-bptemplate-basic" template-title-key="controlledpm.blueprint.basic.title" i18n-name-key="controlledpm.blueprint.basic.title">
-        <resource name="template" type="download" location="/bptemplates/basic.xml" />
-    </content-template>
-    <content-template key="controlledpm-bptemplate-advanced" template-title-key="controlledpm.blueprint.advanced.title" i18n-name-key="controlledpm.blueprint.advanced.title">
-        <resource name="template" type="download" location="/bptemplates/advanced.xml" />
-    </content-template>
     <content-template key="controlledpm-bptemplate-benefitsreviewplan" template-title-key="controlledpm.blueprint.benefitsreviewplan.title" i18n-name-key="controlledpm.blueprint.benefitsreviewplan.title">
         <resource name="template" type="download" location="/bptemplates/benefitsreviewplan.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -106,8 +100,6 @@
 
     <!--  Blueprint -->
     <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
-        <content-template ref="controlledpm-bptemplate-basic"/>
-        <content-template ref="controlledpm-bptemplate-advanced"/>
         <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
         <content-template ref="controlledpm-bptemplate-dailylog"/>
