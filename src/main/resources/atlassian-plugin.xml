@@ -72,6 +72,30 @@
         <resource name="template" type="download" location="/bptemplates/dailylog.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-lessonslog" template-title-key="controlledpm.blueprint.lessonslog.title" i18n-name-key="controlledpm.blueprint.lessonslog.title">
+        <resource name="template" type="download" location="/bptemplates/lessonslog.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
+    <content-template key="controlledpm-bptemplate-plan" template-title-key="controlledpm.blueprint.plan.title" i18n-name-key="controlledpm.blueprint.plan.title">
+        <resource name="template" type="download" location="/bptemplates/plan.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
+    <content-template key="controlledpm-bptemplate-projectbrief" template-title-key="controlledpm.blueprint.projectbrief.title" i18n-name-key="controlledpm.blueprint.projectbrief.title">
+        <resource name="template" type="download" location="/bptemplates/projectbrief.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
+    <content-template key="controlledpm-bptemplate-projectproductdescription" template-title-key="controlledpm.blueprint.projectproductdescription.title" i18n-name-key="controlledpm.blueprint.projectproductdescription.title">
+        <resource name="template" type="download" location="/bptemplates/projectproductdescription.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
+    <content-template key="controlledpm-bptemplate-qualityregister" template-title-key="controlledpm.blueprint.qualityregister.title" i18n-name-key="controlledpm.blueprint.qualityregister.title">
+        <resource name="template" type="download" location="/bptemplates/qualityregister.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
+    <content-template key="controlledpm-bptemplate-riskregister" template-title-key="controlledpm.blueprint.riskregister.title" i18n-name-key="controlledpm.blueprint.riskregister.title">
+        <resource name="template" type="download" location="/bptemplates/riskregister.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
 
     <!--  Add to the Create Menu -->
     <web-item key="controlledpm-bptemplate-link" i18n-name-key="controlledpm.blueprint.link.title" section="system.create.dialog/content">
@@ -87,6 +111,12 @@
         <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
         <content-template ref="controlledpm-bptemplate-dailylog"/>
+        <content-template ref="controlledpm-bptemplate-lessonslog"/>
+        <content-template ref="controlledpm-bptemplate-plan"/>
+        <content-template ref="controlledpm-bptemplate-projectbrief"/>
+        <content-template ref="controlledpm-bptemplate-projectproductdescription"/>
+        <content-template ref="controlledpm-bptemplate-qualityregister"/>
+        <content-template ref="controlledpm-bptemplate-riskregister"/>
         <dialog-wizard key="controlledpm-wizard">
             <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"
                          title-key="controlledpm.blueprint.wizard.page1.title"

@@ -1,0 +1,98 @@
+<h1>Project Brief</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Project Definition</h2>
+<ac:placeholder>Explaining what the project needs to achieve. It should include information on the sections given below</ac:placeholder>
+
+<h2>Background</h2>
+<ac:placeholder>Background</ac:placeholder>
+
+<h2>Project objectives</h2>
+<ac:placeholder>covering time, cost, quality, scope, risk and benefit performance goals</ac:placeholder>
+
+<h2>Desired outcomes</h2>
+<ac:placeholder>Desired outcomes</ac:placeholder>
+
+<h2>Project scope and exclusions</h2>
+<ac:placeholder>Project scope and exclusions</ac:placeholder>
+
+<h2>Constraints and assumptions</h2>
+<ac:placeholder>Constraints and assumptions</ac:placeholder>
+
+<h2>Project tolerances</h2>
+<ac:placeholder>Project tolerances</ac:placeholder>
+
+<h2>The user(s) and any other known interested parties</h2>
+<ac:placeholder>The user(s) and any other known interested parties</ac:placeholder>
+
+<h2>Interfaces</h2>
+<ac:placeholder>Interfaces</ac:placeholder>
+
+<h2>Outline Business Case</h2>
+<ac:placeholder>Reasons why the project is needed and the business option selected. This will later be developed into a detailed Business Case during the Initiating a Project process</ac:placeholder>
+
+<h2>Project Product Description</h2>
+<ac:placeholder>Including the customer’s quality expectations, user acceptance criteria, and operations and maintenance acceptance criteria</ac:placeholder>
+
+<h2>Project Approach</h2>
+<ac:placeholder>To define the choice of solution that will be used within the project to deliver the business option selected from the Business Case, taking into consideration the operational environment into which the solution must fit</ac:placeholder>
+
+<h2>Project Management Team Structure</h2>
+<ac:placeholder>A chart showing who will be involved with the project</ac:placeholder>
+
+<h2>Role Descriptions</h2>
+<ac:placeholder>For the project management team and any other key resources identified at this time</ac:placeholder>
+
+<h2>References</h2>
+<ac:placeholder>To any associated documents or products</ac:placeholder>

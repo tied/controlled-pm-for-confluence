@@ -1,0 +1,94 @@
+<h1>Project Product Description</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Title</h2>
+<ac:placeholder>Name by which the project is known</ac:placeholder>
+
+<h2>Purpose</h2>
+<ac:placeholder>This defines the purpose that the project’s product will fulfil and who will use it. It is helpful in understanding the product’s functions, size, quality, complexity, robustness etc.</ac:placeholder>
+
+<h2>Composition</h2>
+<ac:placeholder>Description of the major products to be delivered by the project</ac:placeholder>
+
+<h2>Derivation</h2>
+<ac:placeholder>What are the source products from which this product is derived? Examples are: Existing products to be modified; design specifications; a feasibility report or project mandate</ac:placeholder>
+
+<h2>Development Skills Required</h2>
+<ac:placeholder>An indication of the skills required to develop the product, or a pointer to which area(s) should supply the development resources</ac:placeholder>
+
+<h2>Customer’s Quality Expectations</h2>
+<ac:placeholder>A description of the quality expected of the project’s product and the standards and processes that will need to be applied to achieve that quality. They will impact on every part of the product development, and thus on time and cost. The quality expectations are captured in discussions with the customer. Where possible, expectations should be prioritized</ac:placeholder>
+
+<table>
+<tbody>
+    <tr>
+        <th>Acceptance Criteria</th>
+        <th>Project Level Quality Tolerances</th>
+        <th>Acceptance Method</th>
+        <th>Acceptance Responsibilities</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>A prioritized list of criteria that the project’s product must meet before the customer will accept it - i.e. measurable definitions of the attributes that must apply to the set of products to be acceptable to key stakeholders (and, in particular, the users and the operational and maintenance organizations). Examples are: ease of use, ease of support, ease of maintenance, appearance, major functions, development costs, running costs, capacity, availability, reliability, security, accuracy or performance</ac:placeholder></td>
+        <td><ac:placeholder>Specifying any tolerances that may apply for the acceptance criteria</ac:placeholder></td>
+        <td><ac:placeholder>Stating the means by which acceptance will be confirmed. This may simply be a case of confirming that all the project’s products have been approved or may involve describing complex handover arrangements for the project’s product, including any phased handover of the project’s products</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder>A prioritized list of criteria that the project’s product must meet before the customer will accept it - i.e. measurable definitions of the attributes that must apply to the set of products to be acceptable to key stakeholders (and, in particular, the users and the operational and maintenance organizations). Examples are: ease of use, ease of support, ease of maintenance, appearance, major functions, development costs, running costs, capacity, availability, reliability, security, accuracy or performance</ac:placeholder></td>
+        <td><ac:placeholder>Specifying any tolerances that may apply for the acceptance criteria</ac:placeholder></td>
+        <td><ac:placeholder>Stating the means by which acceptance will be confirmed. This may simply be a case of confirming that all the project’s products have been approved or may involve describing complex handover arrangements for the project’s product, including any phased handover of the project’s products</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>

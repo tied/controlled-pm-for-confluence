@@ -1,0 +1,98 @@
+<h1>Lessons Log</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Log Contents</h2>
+<table>
+<tbody>
+    <tr>
+        <th rowspan="2">Lesson Type</th>
+        <th colspan="6"><p style="text-align: center;">Lesson Detail</p></th>
+        <th rowspan="2">Date Logged</th>
+        <th rowspan="2">Logged By</th>
+        <th rowspan="2">Priority</th>
+    </tr>
+    <tr>
+        <th>Event</th>
+        <th>Effect</th>
+        <th>Causes/Trigger</th>
+        <th>Early Warnings?</th>
+        <th>Recommendations</th>
+        <th>Previously Identified?</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td></td>
+    </tr>
+</tbody>
+</table>

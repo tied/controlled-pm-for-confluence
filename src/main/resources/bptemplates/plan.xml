@@ -1,0 +1,93 @@
+<h1>Plan</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Plan Description</h2>
+<ac:placeholder>Covering a brief description of what the plan encompasses (i.e. project, stage, team, exception) and the planning approach</ac:placeholder>
+
+<h2>Plan Prerequisites</h2>
+<ac:placeholder>Containing any fundamental aspects that must be in place, and remain in place, for the plan to succeed</ac:placeholder>
+
+<h2>External Dependencies</h2>
+<ac:placeholder>That may influence the plan</ac:placeholder>
+
+<h2>Planning Assumptions</h2>
+<ac:placeholder>Upon which the plan is based</ac:placeholder>
+
+<h2>Lessons Incorporated</h2>
+<ac:placeholder>Details of relevant lessons from previous similar projects, which have been reviewed and accommodated within this plan</ac:placeholder>
+
+<h2>Monitoring and Control</h2>
+<ac:placeholder>Details of how the plan will be monitored and controlled</ac:placeholder>
+
+<h2>Budgets</h2>
+<ac:placeholder>Covering time and cost, including provisions for risks and changes</ac:placeholder>
+
+<h2>Tolerances</h2>
+<ac:placeholder>Time, cost and scope tolerances for the level of plan (which may also include more specific stage- or team-level risk tolerances)</ac:placeholder>
+
+<h2>Product Descriptions</h2>
+<ac:placeholder>Covering the products within the scope of the plan (for the Project Plan this will include the project’s product; for the Stage Plan this will be the stage products; and for a Team Plan this should be a reference to the Work Package assigned). Quality tolerances will be defined in each Product Description</ac:placeholder>
+
+<h2>Schedule</h2>
+<p>
+<ac:placeholder>This may include or reference graphical representations of the following:</ac:placeholder>
+</p>
+<ul>
+    <li><ac:placeholder>Gantt or bar chart</ac:placeholder></li>
+    <li><ac:placeholder>Activity Network</ac:placeholder></li>
+    <li><ac:placeholder>Product breakdown structure</ac:placeholder></li>
+    <li><ac:placeholder>Table of resource requirements – by resource type (e.g. four engineers, one test manager, one business analyst)</ac:placeholder></li>
+    <li><ac:placeholder>Product flow diagram</ac:placeholder></li>
+    <li><ac:placeholder>Table of requested/assigned specific resources –by name (e.g. Nikki, Jay, Francesca)</ac:placeholder></li>
+</ul>
