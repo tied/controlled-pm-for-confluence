@@ -18,7 +18,6 @@ public class ControlledPMContextProvider extends AbstractBlueprintContextProvide
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         blueprintContext.put("currentDate", "<time datetime=\"" + dateFormat.format(date) + "\" />");
-        //blueprintContext.put("currentDate", dateFormat.format(date));
         return blueprintContext;
     }
 }
