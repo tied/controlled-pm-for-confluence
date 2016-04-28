@@ -56,28 +56,43 @@
 <ac:placeholder>Explaining what the project needs to achieve. It should include information on the sections given below</ac:placeholder>
 
 <h2>Background</h2>
-<ac:placeholder>Background</ac:placeholder>
+<ac:placeholder>Brief outline of any background to the Project / (business / political) context. Include brief outline of rationale, who commissioned by, drivers etc. Where does the project fit within wider picture?</ac:placeholder>
 
 <h2>Project objectives</h2>
 <ac:placeholder>covering time, cost, quality, scope, risk and benefit performance goals</ac:placeholder>
 
 <h2>Desired outcomes</h2>
-<ac:placeholder>Desired outcomes</ac:placeholder>
+<ac:placeholder>At this early stage of the project, list the expected project outcomes and try to be as specific as possible.</ac:placeholder>
 
 <h2>Project scope and exclusions</h2>
-<ac:placeholder>Project scope and exclusions</ac:placeholder>
+<ac:placeholder>Scope definition deals with "What" and Why" and is a function of Quality, Cost and Time. The scope of the project can be defined by what will not be implemented as much as by what will be included. This may be due to budgetary constraints, the overlapping with another project or be part of a future phase. This is a very important section as it will define and communicate which deliverables the reader might have expected to be part of the project but are considered outside the projects current scope.</ac:placeholder>
 
 <h2>Constraints and assumptions</h2>
-<ac:placeholder>Constraints and assumptions</ac:placeholder>
+<ac:placeholder>This section can expressed the constraints in terms of project, operational, technical, business and external constraints.</ac:placeholder>
 
 <h2>Project tolerances</h2>
-<ac:placeholder>Project tolerances</ac:placeholder>
+<ac:placeholder>The project’s tolerances are an important component of the “management by exception” concept and provide the Project Board with the ability to set boundaries in which the Project Manager can operate and accept deviations without requiring attention from the next higher authority. There are two standard elements of tolerance: Time and Cost. However there are many other ways of expressing tolerances: Risk Tolerances, Scope Tolerances, Benefit Tolerances, etc.</ac:placeholder>
 
 <h2>The user(s) and any other known interested parties</h2>
-<ac:placeholder>The user(s) and any other known interested parties</ac:placeholder>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Role here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Role here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
 
 <h2>Interfaces</h2>
-<ac:placeholder>Interfaces</ac:placeholder>
+<ac:placeholder>What organisations, both internal and external, does the project interface with?  What are the job titles of the primary and secondary contacts?  Names of people should be avoided as people can change jobs during the course of the project.</ac:placeholder>
 
 <h2>Outline Business Case</h2>
 <ac:placeholder>Reasons why the project is needed and the business option selected. This will later be developed into a detailed Business Case during the Initiating a Project process</ac:placeholder>
