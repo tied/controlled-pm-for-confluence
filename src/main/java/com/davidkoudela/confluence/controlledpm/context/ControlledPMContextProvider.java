@@ -8,6 +8,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * Description: Extension of {@link AbstractBlueprintContextProvider} providing context information for the ControlledPM blueprints.
+ * Copyright (C) 2015 David Koudela
  *
  * @author dkoudela
  * @since 2016-03-17
