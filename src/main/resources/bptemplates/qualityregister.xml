@@ -77,10 +77,10 @@
         <th>Actual Date</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>Provides a unique reference for every quality activity entered into the Quality Register.</ac:placeholder></td>
+        <td><ac:placeholder>Unique identifier(s) for the product(s) that the quality activity relates to.</ac:placeholder></td>
+        <td><ac:placeholder>The name(s) by which the product(s) is known.</ac:placeholder></td>
+        <td><ac:placeholder>The method employed for the quality activity (e.g. pilot, quality review, audit etc.)</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
@@ -89,14 +89,14 @@
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>The result of the quality activity. If a product fails a quality review, then any  re-assessment should be listed as a separate  entry in the register, as the original quality activity has been completed (in deciding that the result is a ‘fail’).</ac:placeholder></td>
+        <td><ac:placeholder>References to the quality inspection documentation, such as a test plan or the details of any actions required to correct errors and omissions of the products being inspected.</ac:placeholder></td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>Provides a unique reference for every quality activity entered into the Quality Register.</ac:placeholder></td>
+        <td><ac:placeholder>Unique identifier(s) for the product(s) that the quality activity relates to.</ac:placeholder></td>
+        <td><ac:placeholder>The name(s) by which the product(s) is known.</ac:placeholder></td>
+        <td><ac:placeholder>The method employed for the quality activity (e.g. pilot, quality review, audit etc.)</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
@@ -105,8 +105,8 @@
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>The result of the quality activity. If a product fails a quality review, then any  re-assessment should be listed as a separate  entry in the register, as the original quality activity has been completed (in deciding that the result is a ‘fail’).</ac:placeholder></td>
+        <td><ac:placeholder>References to the quality inspection documentation, such as a test plan or the details of any actions required to correct errors and omissions of the products being inspected.</ac:placeholder></td>
     </tr>
 </tbody>
 </table>

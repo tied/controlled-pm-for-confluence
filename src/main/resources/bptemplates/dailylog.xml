@@ -64,14 +64,14 @@
     </tr>
     <tr>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
-        <td></td>
+        <td><ac:placeholder>Record informal issues, required actions or significant events not caught by other PRINCE2 registers or logs.</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td></td>
     </tr>
     <tr>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
-        <td></td>
+        <td><ac:placeholder>Record informal issues, required actions or significant events not caught by other PRINCE2 registers or logs.</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td></td>

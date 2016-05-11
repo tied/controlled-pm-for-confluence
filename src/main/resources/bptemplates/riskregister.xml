@@ -56,6 +56,12 @@
 <table>
 <tbody>
     <tr>
+        <th rowspan="2">Risk ID</th>
+        <th rowspan="2">Author</th>
+        <th rowspan="2">Date Registered</th>
+        <th rowspan="2">Risk Category</th>
+        <th colspan="3"><p style="text-align: center;">Description</p></th>
+        <th colspan="2"><p style="text-align: center;">Impact</p></th>
         <th colspan="2"><p style="text-align: center;">Probability</p></th>
         <th colspan="2"><p style="text-align: center;">Expected Value</p></th>
         <th rowspan="2">Proximity</th>
@@ -66,32 +72,55 @@
         <th rowspan="2">Risk Actionee</th>
     </tr>
     <tr>
+        <th>Cause</th>
+        <th>Event</th>
+        <th>Effect</th>
+        <th>Inherent</th>
+        <th>Residual</th>
         <th>Inherent</th>
         <th>Residual</th>
         <th>Inherent</th>
         <th>Residual</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>Provides a unique reference for every risk entered into the Risk Register.</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder>The type of risk in terms of the project's chosen categories (e.g. Schedule, quality, legal etc.).</ac:placeholder></td>
+        <td><ac:placeholder>Describe the source of the risk.</ac:placeholder></td>
+        <td><ac:placeholder>Describe the risk trigger.</ac:placeholder></td>
+        <td><ac:placeholder>Describe the risk impact on the project.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Impact: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Impact: This is the post-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Probability: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Probability: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Expected Value: Cost of impact x Probability.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Expected Value: Cost of impact x Probability.</ac:placeholder></td>
+        <td><ac:placeholder>This would typically state how close to the present time the risk event is anticiapted to happen (e.g. Imminent, within stage, within project, beyond project).  Proximity should be recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>For Threats: avoid, reduce, fallback, transfer, accept, share / For opportunities: enhance, exploit, reject, share</ac:placeholder></td>
+        <td><ac:placeholder>Actions to resolve the risk, and these actions should be aligned to the chosen response categories.  Note that more than one risk response may apply to a risk.</ac:placeholder></td>
+        <td><ac:placeholder>Typically described in terms of whether the risk is active or closed.</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><ac:placeholder>Provides a unique reference for every risk entered into the Risk Register.</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder>The type of risk in terms of the project's chosen categories (e.g. Schedule, quality, legal etc.).</ac:placeholder></td>
+        <td><ac:placeholder>Describe the source of the risk.</ac:placeholder></td>
+        <td><ac:placeholder>Describe the risk trigger.</ac:placeholder></td>
+        <td><ac:placeholder>Describe the risk impact on the project.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Impact: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Impact: This is the post-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Probability: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Probability: This is the pre-response value. Recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>Inherent Expected Value: Cost of impact x Probability.</ac:placeholder></td>
+        <td><ac:placeholder>Residual Expected Value: Cost of impact x Probability.</ac:placeholder></td>
+        <td><ac:placeholder>This would typically state how close to the present time the risk event is anticiapted to happen (e.g. Imminent, within stage, within project, beyond project).  Proximity should be recorded in accordance with the project's chosen scales.</ac:placeholder></td>
+        <td><ac:placeholder>For Threats: avoid, reduce, fallback, transfer, accept, share / For opportunities: enhance, exploit, reject, share</ac:placeholder></td>
+        <td><ac:placeholder>Actions to resolve the risk, and these actions should be aligned to the chosen response categories.  Note that more than one risk response may apply to a risk.</ac:placeholder></td>
+        <td><ac:placeholder>Typically described in terms of whether the risk is active or closed.</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
     </tr>

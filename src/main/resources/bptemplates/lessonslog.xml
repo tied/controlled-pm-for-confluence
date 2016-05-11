@@ -71,28 +71,28 @@
         <th>Previously Identified?</th>
     </tr>
     <tr>
+        <td>Type of lesson being recorded: Project / Corporate or programme / Both project and corporate or programme</td>
+        <td>The Event</td>
+        <td>e.g.  positive/negative financial impact</td>
         <td></td>
+        <td>Were there were any early warning indicators?</td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Whether it was previously identified as a risk (threat or opportunity)?</td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
-        <td></td>
+        <td>Priority: In terms of the project’s chosen categories</td>
     </tr>
     <tr>
+        <td>Type of lesson being recorded: Project / Corporate or programme / Both project and corporate or programme</td>
+        <td>The Event</td>
+        <td>e.g.  positive/negative financial impact</td>
         <td></td>
+        <td>Were there were any early warning indicators?</td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Whether it was previously identified as a risk (threat or opportunity)?</td>
         <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
         <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
-        <td></td>
+        <td>Priority: In terms of the project’s chosen categories</td>
     </tr>
 </tbody>
 </table>
