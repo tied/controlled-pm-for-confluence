@@ -13,7 +13,7 @@ before_install:
     - sudo apt-get install atlassian-plugin-sdk
 # Install GnuPG and download GnuPG public key
     - sudo apt-get install gnupg
-    - wget http://davidkoudela.cz/github/Common/keys/pubkey.txt  -O /tmp/pubkey.txt
+    - wget http://davidkoudela.cz/github/Common/keys/pubkey.txt -O /tmp/pubkey.txt
     - gpg --import /tmp/pubkey.txt
     - export DEBUG_LOG=/tmp/debug.log
 # Install git-lfs repo and packages for managing large files in GIT
