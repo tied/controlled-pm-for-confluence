@@ -18,6 +18,7 @@ before_install:
 install:
 # Setup the global Git hooks for Git LFS
     - git lfs install
+    - atlas-mvn -q org.apache.maven.plugins:maven-dependency-plugin:resolve-plugins
 
 script:
 # Explicitly switch to the right JDK
