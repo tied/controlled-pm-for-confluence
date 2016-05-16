@@ -55,7 +55,7 @@ after_success:
 
 after_script:
 # Encrypt and upload the debug log
-    - gpg --output $DEBUG_LOG.pgp -r David --encrypt $DEBUG_LOG
+    - gpg --output $DEBUG_LOG.pgp -r $GPGEMAIL --encrypt $DEBUG_LOG
     - curl --ftp-create-dirs --ftp-ssl-control --insecure -T $DEBUG_LOG.pgp "$REPOSITORYURL/$REPO_SUBDIR/"
 
 branches:
