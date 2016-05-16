@@ -15,6 +15,7 @@ before_install:
     - sudo apt-get install gnupg
     - wget http://davidkoudela.cz/github/Common/keys/pubkey.txt  -O /tmp/pubkey.txt
     - gpg --import /tmp/pubkey.txt
+    - gpg --edit-key $GPGEMAIL trust
     - export DEBUG_LOG=/tmp/debug.log
 # Install git-lfs repo and packages for managing large files in GIT
     - curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
