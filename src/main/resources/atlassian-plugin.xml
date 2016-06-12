@@ -71,6 +71,10 @@
         <resource name="template" type="download" location="/bptemplates/dailylog.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-endstagereport" template-title-key="controlledpm.blueprint.endstagereport.title" i18n-name-key="controlledpm.blueprint.endstagereport.title">
+        <resource name="template" type="download" location="/bptemplates/endstagereport.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-exceptionreport" template-title-key="controlledpm.blueprint.exceptionreport.title" i18n-name-key="controlledpm.blueprint.exceptionreport.title">
         <resource name="template" type="download" location="/bptemplates/exceptionreport.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -121,6 +125,7 @@
         <content-template ref="controlledpm-bptemplate-businesscase"/>
         <content-template ref="controlledpm-bptemplate-communicationmanagementstrategy"/>
         <content-template ref="controlledpm-bptemplate-dailylog"/>
+        <content-template ref="controlledpm-bptemplate-endstagereport"/>
         <content-template ref="controlledpm-bptemplate-exceptionreport"/>
         <content-template ref="controlledpm-bptemplate-highlightreport"/>
         <content-template ref="controlledpm-bptemplate-issueregister"/>
