@@ -1,0 +1,161 @@
+<h1>Highlight Report</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+    <tr>
+        <th>Date of Highlight Report:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Period Covered:</th>
+        <td><ac:placeholder>Enter your Project Period here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Status Summary</h2>
+<ac:placeholder>An overview of the status of the stage at this time</ac:placeholder>
+
+<h2>This Reporting Period</h2>
+<h3>Work Packages</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Work Package Ref</th>
+        <th>Work Package Name</th>
+        <th>Status</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Work Package Ref</ac:placeholder></td>
+        <td><ac:placeholder>Work Package Name</ac:placeholder></td>
+        <td><ac:placeholder>Either Pending Authorisation, In Execution or Completed (in the period)</ac:placeholder></td>
+        <td><ac:placeholder>For example if Work Packages are being performed by external suppliers, this information may be accompanied by purchase order and invoicing data</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Products</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Product Ref</th>
+        <th>Product name</th>
+        <th>Status</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Ref</ac:placeholder></td>
+        <td><ac:placeholder>Product name</ac:placeholder></td>
+        <td><ac:placeholder>Completed (in the period), Planned (but not started or completed) or Underway (as planned)</ac:placeholder></td>
+        <td><ac:placeholder>Indicate if any products are running behind schedule.</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Corrective Actions Undertaken</h3>
+<ac:placeholder>Taken during the period</ac:placeholder>
+
+
+<h2>Next Reporting Period</h2>
+<h3>Work Packages</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Work Package Ref</th>
+        <th>Work Package Name</th>
+        <th>Status</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Work Package Ref</ac:placeholder></td>
+        <td><ac:placeholder>Work Package Name</ac:placeholder></td>
+        <td><ac:placeholder>Either To be authorized, In-execution, and To be completed during the next period</ac:placeholder></td>
+        <td><ac:placeholder>For example if Work Packages are being performed by external suppliers, this information may be accompanied by purchase order and invoicing data</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Products to be completed</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Product Ref</th>
+        <th>Product name</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Ref</ac:placeholder></td>
+        <td><ac:placeholder>Product name</ac:placeholder></td>
+        <td><ac:placeholder>Notes</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Corrective Actions</h3>
+<ac:placeholder>To be completed during the next period</ac:placeholder>
+
+
+<h2>Project and Stage Tolerance Status</h2>
+<ac:placeholder>How execution of the project and stage are performing against its tolerances (e.g. cost/time/scope actuals and forecast)</ac:placeholder>
+
+<h2>Requests for Change</h2>
+<ac:placeholder>Identifying any raised, approved/rejected and pending</ac:placeholder>
+
+<h2>Key Issues and Risks</h2>
+<ac:placeholder>Summary of actual or potential problems and risks</ac:placeholder>
+
+<h2>Lessons Report</h2>
+<ac:placeholder>(If appropriate) A review of what went well, what went badly, and any recommendations for corporate or programme management consideration</ac:placeholder>
+
