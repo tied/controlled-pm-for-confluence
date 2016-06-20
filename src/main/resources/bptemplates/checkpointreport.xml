@@ -1,0 +1,121 @@
+<h1>Checkpoint Report</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+    <tr>
+        <th>Date of Checkpoint</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Period Covered:</th>
+        <td><ac:placeholder>Enter your Project Period here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Follow ups from previous periods</h2>
+<ac:placeholder>for example action items completed or issues outstanding</ac:placeholder>
+
+<h2>This Reporting Period</h2>
+<h3>Products</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Product Ref</th>
+        <th>Product name</th>
+        <th>Work undertaken</th>
+        <th>Date Completed</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Ref</ac:placeholder></td>
+        <td><ac:placeholder>Product name</ac:placeholder></td>
+        <td><ac:placeholder>Work undertaken</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Quality Management</h3>
+<ac:placeholder>activities undertaken this period</ac:placeholder>
+
+<h3>Lessons Identified</h3>
+<ac:placeholder>Lessons Identified</ac:placeholder>
+
+<h2>Next Reporting Period</h2>
+<h3>Products</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Product Ref</th>
+        <th>Product name</th>
+        <th>Work undertaken</th>
+        <th>Date to be Completed</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Ref</ac:placeholder></td>
+        <td><ac:placeholder>Product name</ac:placeholder></td>
+        <td><ac:placeholder>Work undertaken</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Quality Management</h3>
+<ac:placeholder>activities planned for this period</ac:placeholder>
+
+<h3>Work Package Tolerance Status</h3>
+<ac:placeholder>How execution of the Work Package is performing against its tolerances (e.g. cost/time/scope actuals and forecast</ac:placeholder>
+
+<h3>Issues and Risks</h3>
+<ac:placeholder>Update on issues and risks associated with the Work Package</ac:placeholder>

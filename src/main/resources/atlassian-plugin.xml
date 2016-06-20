@@ -63,6 +63,10 @@
         <resource name="template" type="download" location="/bptemplates/businesscase.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-checkpointreport" template-title-key="controlledpm.blueprint.checkpointreport.title" i18n-name-key="controlledpm.blueprint.checkpointreport.title">
+        <resource name="template" type="download" location="/bptemplates/checkpointreport.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-communicationmanagementstrategy" template-title-key="controlledpm.blueprint.communicationmanagementstrategy.title" i18n-name-key="controlledpm.blueprint.communicationmanagementstrategy.title">
         <resource name="template" type="download" location="/bptemplates/communicationmanagementstrategy.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -139,6 +143,7 @@
     <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
         <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
+        <content-template ref="controlledpm-bptemplate-checkpointreport"/>
         <content-template ref="controlledpm-bptemplate-communicationmanagementstrategy"/>
         <content-template ref="controlledpm-bptemplate-configurationitemrecord"/>
         <content-template ref="controlledpm-bptemplate-dailylog"/>
