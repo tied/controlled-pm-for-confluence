@@ -103,6 +103,10 @@
         <resource name="template" type="download" location="/bptemplates/plan.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-productdescription" template-title-key="controlledpm.blueprint.productdescription.title" i18n-name-key="controlledpm.blueprint.productdescription.title">
+        <resource name="template" type="download" location="/bptemplates/productdescription.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-projectbrief" template-title-key="controlledpm.blueprint.projectbrief.title" i18n-name-key="controlledpm.blueprint.projectbrief.title">
         <resource name="template" type="download" location="/bptemplates/projectbrief.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -145,6 +149,7 @@
         <content-template ref="controlledpm-bptemplate-issueregister"/>
         <content-template ref="controlledpm-bptemplate-lessonslog"/>
         <content-template ref="controlledpm-bptemplate-plan"/>
+        <content-template ref="controlledpm-bptemplate-productdescription"/>
         <content-template ref="controlledpm-bptemplate-projectbrief"/>
         <content-template ref="controlledpm-bptemplate-projectproductdescription"/>
         <content-template ref="controlledpm-bptemplate-qualityregister"/>

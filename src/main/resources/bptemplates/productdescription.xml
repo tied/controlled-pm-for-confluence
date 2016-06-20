@@ -1,0 +1,121 @@
+<h1>Product Description</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+    <tr>
+        <th>Identifier</th>
+        <td><ac:placeholder>Unique key, probably allocated by the configuration management method and likely to include the project name, item name and version number</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Title</th>
+        <td><ac:placeholder>Name by which the product is known</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Purpose</h2>
+<ac:placeholder>This defines the purpose that the product will fulfil and who will use it. Is it a means to an end or an end in itself? It is helpful in understanding the product’s functions, size, quality, complexity, robustness etc.</ac:placeholder>
+
+<h2>Composition</h2>
+<ac:placeholder>This is a list of the parts of the product. For example, if the product were a report, this would be a list of the expected chapters or sections</ac:placeholder>
+
+<h2>Derivation</h2>
+<ac:placeholder>What are the source products from which this product is derived? Examples are: a design is derived from a specification; a product is bought in from a supplier; a statement of the expected benefits is obtained from the user; or a product is obtained from another department or team</ac:placeholder>
+
+<h2>Format and Presentation</h2>
+<ac:placeholder>The characteristics of the product - for example, if the product were a report, this would specify whether the report should be a document, presentation slides or an email</ac:placeholder>
+
+<h2>Development Skills Required</h2>
+<ac:placeholder>An indication of the skills required to develop the product or a pointer to which area(s) should supply the development resources. Identification of the actual people may be left until planning the stage in which the product is to be created</ac:placeholder>
+
+<table>
+<tbody>
+    <tr>
+        <th>Quality Criteria</th>
+        <th>Quality Tolerance</th>
+        <th>Quality Method</th>
+        <th>Quality Skills Required</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>To what quality specification must the product be produced, and what quality measurements will be applied by those inspecting the finished product? This might be a simple reference to one or more common standards that are documented elsewhere, or it might be a full explanation of some yardstick to be applied. If the product is to be developed and approved in different states (e.g. dismantled machinery, moved machinery and reassembled machinery), then the quality criteria should be grouped into those that apply for each state</ac:placeholder></td>
+        <td><ac:placeholder>Details of any range in the quality criteria within which the product would be acceptable</ac:placeholder></td>
+        <td><ac:placeholder>The kinds of quality method - for example, design verification, pilot, test, inspection or review - that are to be used to check the quality or functionality of the product</ac:placeholder></td>
+        <td><ac:placeholder>An indication of the skills required to undertake the quality method or a pointer to which area(s) should supply the checking resources. Identification of the actual people may be left until planning the stage in which the quality inspection is to be done</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Quality Responsibilities</h2>
+
+<table>
+<tbody>
+    <tr>
+        <th>Role</th>
+        <th>Responsible Individuals</th>
+    </tr>
+    <tr>
+        <th>Product Producer</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Product Reviewer(s)</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Product Approver(s)</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
