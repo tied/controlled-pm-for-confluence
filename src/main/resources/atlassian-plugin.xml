@@ -119,6 +119,10 @@
         <resource name="template" type="download" location="/bptemplates/riskregister.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-workpackage" template-title-key="controlledpm.blueprint.workpackage.title" i18n-name-key="controlledpm.blueprint.workpackage.title">
+        <resource name="template" type="download" location="/bptemplates/workpackage.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
 
     <!--  Add to the Create Menu -->
     <web-item key="controlledpm-bptemplate-link" i18n-name-key="controlledpm.blueprint.link.title" section="system.create.dialog/content">
@@ -145,6 +149,7 @@
         <content-template ref="controlledpm-bptemplate-projectproductdescription"/>
         <content-template ref="controlledpm-bptemplate-qualityregister"/>
         <content-template ref="controlledpm-bptemplate-riskregister"/>
+        <content-template ref="controlledpm-bptemplate-workpackage"/>
         <dialog-wizard key="controlledpm-wizard">
             <dialog-page id="page1Id" template-key="Controlledpm.Blueprints.page1Form"
                          title-key="controlledpm.blueprint.wizard.page1.title"
