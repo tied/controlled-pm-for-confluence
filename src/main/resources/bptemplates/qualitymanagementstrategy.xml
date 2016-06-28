@@ -1,0 +1,104 @@
+<h1>Quality Management Strategy</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Introduction</h2>
+<p>
+<ac:placeholder>States the purpose, objectives and scope, and identifies who is responsible for the strategy</ac:placeholder>
+</p>
+
+<h2>Quality Management Procedure</h2>
+<p>
+<ac:placeholder>A description of (or reference to) the quality management procedure to be used. Any variance from corporate or programme management quality standards should be highlighted, together with a justification for the variance. The Procedure should cover the following topics:</ac:placeholder>
+</p>
+
+<h3>Quality planning</h3>
+<p>
+<ac:placeholder>Quality planning</ac:placeholder>
+</p>
+
+<h3>Quality control</h3>
+<p>
+<ac:placeholder>The project’s approach to quality control activities.  This may include: 	Quality standards, Templates and forms to be employed (e.g. Product Description(s), Quality Register), Definitions of types of quality methods (e.g. inspection, pilot), and Metrics to be employed in support of quality control</ac:placeholder>
+</p>
+
+<h3>Quality assurance</h3>
+<p>
+<ac:placeholder>The project’s approach to quality assurance activities. This may include: Responsibilities of the Project Board, Compliance audits, and Corporate or programme management reviews</ac:placeholder>
+</p>
+
+<h2>Tools and Techniques</h2>
+<p>
+<ac:placeholder>Refers to any quality management systems or tools to be used, and any preference for techniques which may be used for each step in the quality management procedure</ac:placeholder>
+</p>
+
+<h2>Records</h2>
+<p>
+<ac:placeholder>Definition of what quality records will be required and where they will be stored including the composition and format of the Quality Register</ac:placeholder>
+</p>
+
+<h2>Reporting</h2>
+<p>
+<ac:placeholder>Describes any quality management reports that are to be produced, their purpose, timing and recipients</ac:placeholder>
+</p>
+
+<h2>Timing of Quality Management Activities</h2>
+<p>
+<ac:placeholder>States when formal quality management activities are to be undertaken, for example audits (this may be a reference to the Quality Register)</ac:placeholder>
+</p>
+
+<h2>Roles and Responsibilities</h2>
+<p>
+<ac:placeholder>Defines the roles and responsibilities for quality management activities, including those with quality responsibilities from corporate or programme management</ac:placeholder>
+</p>
+
