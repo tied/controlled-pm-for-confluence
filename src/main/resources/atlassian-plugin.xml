@@ -127,6 +127,10 @@
         <resource name="template" type="download" location="/bptemplates/qualityregister.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-riskmanagementstrategy" template-title-key="controlledpm.blueprint.riskmanagementstrategy.title" i18n-name-key="controlledpm.blueprint.riskmanagementstrategy.title">
+        <resource name="template" type="download" location="/bptemplates/riskmanagementstrategy.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-riskregister" template-title-key="controlledpm.blueprint.riskregister.title" i18n-name-key="controlledpm.blueprint.riskregister.title">
         <resource name="template" type="download" location="/bptemplates/riskregister.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -163,6 +167,7 @@
         <content-template ref="controlledpm-bptemplate-projectproductdescription"/>
         <content-template ref="controlledpm-bptemplate-qualitymanagementstrategy"/>
         <content-template ref="controlledpm-bptemplate-qualityregister"/>
+        <content-template ref="controlledpm-bptemplate-riskmanagementstrategy"/>
         <content-template ref="controlledpm-bptemplate-riskregister"/>
         <content-template ref="controlledpm-bptemplate-workpackage"/>
         <dialog-wizard key="controlledpm-wizard">
