@@ -1,0 +1,84 @@
+<h1>Lessons Report</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Executive Summary</h2>
+<ac:placeholder>Specify the scope of the report e.g. Stage or Project</ac:placeholder>
+
+<h2>Overall Review</h2>
+<ac:placeholder>A review of what went well, what went badly and any recommendations for corporate or programme management consideration. In particular: Project management method (including the tailoring of PRINCE2); Any specialist methods used; Project strategies (risk management, quality management, communications management and configuration management);	Project controls (and the effectiveness of any tailoring) and Abnormal events causing deviations</ac:placeholder>
+
+<h2>Review of Useful Measures</h2>
+<ac:placeholder>Such as: How much effort was required to create the products; How effective was the Quality Management Strategy in designing, developing and delivering fit-for-purpose products (for example, how many errors were found after products had passed quality inspections?) and Statistics on issues and risks</ac:placeholder>
+
+<h3>Significant Lessons</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Event</th>
+        <th>Effect</th>
+        <th>Causes/Trigger</th>
+        <th>Early Warnings?</th>
+        <th>Identified as a Risk?</th>
+        <th>Recommendations</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Event</ac:placeholder></td>
+        <td><ac:placeholder>For example caused a  positive/negative financial impact</ac:placeholder></td>
+        <td><ac:placeholder>Causes/Trigger</ac:placeholder></td>
+        <td><ac:placeholder>Where there any early-warning indicators?</ac:placeholder></td>
+        <td><ac:placeholder>Was the triggered event previously identified as a risk (threat or opportunity)</ac:placeholder></td>
+        <td><ac:placeholder>Recommendations</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
