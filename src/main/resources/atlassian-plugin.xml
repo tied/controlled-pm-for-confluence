@@ -99,6 +99,10 @@
         <resource name="template" type="download" location="/bptemplates/issueregister.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-issuereport" template-title-key="controlledpm.blueprint.issuereport.title" i18n-name-key="controlledpm.blueprint.issuereport.title">
+        <resource name="template" type="download" location="/bptemplates/issuereport.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-lessonslog" template-title-key="controlledpm.blueprint.lessonslog.title" i18n-name-key="controlledpm.blueprint.lessonslog.title">
         <resource name="template" type="download" location="/bptemplates/lessonslog.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -164,6 +168,7 @@
         <content-template ref="controlledpm-bptemplate-exceptionreport"/>
         <content-template ref="controlledpm-bptemplate-highlightreport"/>
         <content-template ref="controlledpm-bptemplate-issueregister"/>
+        <content-template ref="controlledpm-bptemplate-issuereport"/>
         <content-template ref="controlledpm-bptemplate-lessonslog"/>
         <content-template ref="controlledpm-bptemplate-lessonsreport"/>
         <content-template ref="controlledpm-bptemplate-plan"/>
