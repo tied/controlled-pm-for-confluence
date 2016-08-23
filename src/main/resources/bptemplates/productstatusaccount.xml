@@ -1,0 +1,111 @@
+<h1>Product Status Account</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Product Status Account</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Report Scope</th>
+        <th>Date Produced</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Describing the scope of the report (e.g. for the entire project, by stage, by product type, by supplier etc. The product’s attribute can be used to select the subset of products for the report)</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Product Status </h2>
+<table>
+<tbody>
+    <tr>
+        <th>Product Identifier</th>
+        <th>Product Title</th>
+        <th>Version</th>
+        <th>Status</th>
+        <th>Date of status change</th>
+        <th>Product State</th>
+        <th>Owner</th>
+        <th>Copy-holders</th>
+        <th>Location</th>
+        <th>User(s)</th>
+        <th>Producer</th>
+        <th>Date Allocated</th>
+        <th>Baseline Date planned</th>
+        <th>Actual</th>
+        <th>Planned date of next baseline</th>
+        <th>List of related items</th>
+        <th>List of related Issues and risks</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Identifier</ac:placeholder></td>
+        <td><ac:placeholder>Product Title</ac:placeholder></td>
+        <td><ac:placeholder>Version</ac:placeholder></td>
+        <td><ac:placeholder>Status</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder>Product State</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Location</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder>List of related items</ac:placeholder></td>
+        <td><ac:placeholder>List of related Issues and risks including changes pending and approved</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
