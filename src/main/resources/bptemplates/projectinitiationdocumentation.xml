@@ -1,0 +1,149 @@
+<h1>Project Initiation Documentation</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Project Definition</h2>
+<p>
+<ac:placeholder>Explaining what the project needs to achieve. It should include information on the sections given below.</ac:placeholder>
+</p>
+
+<h2>Background</h2>
+<p>
+<ac:placeholder>Background.</ac:placeholder>
+</p>
+
+<h2>Project objectives</h2>
+<p>
+<ac:placeholder>Covering time, cost, quality, scope, risk and benefit performance goals.</ac:placeholder>
+</p>
+
+<h2>Desired outcomes</h2>
+<p>
+<ac:placeholder>Desired outcomes.</ac:placeholder>
+</p>
+
+<h2>Project scope and exclusions</h2>
+<p>
+<ac:placeholder>Project scope and exclusions.</ac:placeholder>
+</p>
+
+<h2>Constraints and assumptions</h2>
+<p>
+<ac:placeholder>Constraints and assumptions.</ac:placeholder>
+</p>
+
+<h2>The user(s) and any other known interested parties</h2>
+<p>
+<ac:placeholder>The user(s) and any other known interested parties.</ac:placeholder>
+</p>
+
+<h2>Interfaces</h2>
+<p>
+<ac:placeholder>Interfaces.</ac:placeholder>
+</p>
+
+<h2>Project Approach</h2>
+<p>
+<ac:placeholder>To define the choice of solution that will be used in the project to deliver the business option selected from the Business Case, taking into consideration the operational environment into which the solution must fit.</ac:placeholder>
+</p>
+
+<h2>Business Case</h2>
+<p>
+<ac:placeholder>Describing the justification for the project based on estimated costs, risks and benefits.</ac:placeholder>
+</p>
+
+<h2>Project Management Team Structure</h2>
+<p>
+<ac:placeholder>A chart showing who will be involved with the project.</ac:placeholder>
+</p>
+
+<h2>Role Descriptions</h2>
+<p>
+<ac:placeholder>For the project management team and any other key resources.</ac:placeholder>
+</p>
+
+<h2>Quality Management Strategy</h2>
+<p>
+<ac:placeholder>Describing the quality techniques and standards to be applied, and the responsibilities for achieving the required quality levels.</ac:placeholder>
+</p>
+
+<h2>Configuration Management Strategy</h2>
+<p>
+<ac:placeholder>Describing how and by whom the project’s products will be controlled and protected.</ac:placeholder>
+</p>
+
+<h2>Risk Management Strategy</h2>
+<p>
+<ac:placeholder>Describing the specific risk management techniques and standards to be applied, and the responsibilities for achieving an effective risk management procedure.</ac:placeholder>
+</p>
+
+<h2>Communication Management Strategy</h2>
+<p>
+<ac:placeholder>To define the parties interested in the project and the means and frequency of communication between them and the project.</ac:placeholder>
+</p>
+
+<h2>Project Plan</h2>
+<p>
+<ac:placeholder>Describing how and when the project’s objectives are to be achieved, by showing the major products, activities and resources required on the project. It provides a baseline against which to monitor the project’s progress stage by stage.</ac:placeholder>
+</p>
+
+<h2>Project Controls</h2>
+<p>
+<ac:placeholder>Summarizing the project-level controls such as stage boundaries, agreed tolerances, monitoring and reporting.</ac:placeholder>
+</p>
+
+<h2>Tailoring of PRINCE2</h2>
+<p>
+<ac:placeholder>A summary of how PRINCE2 will be tailored for the project.</ac:placeholder>
+</p>
+

@@ -127,6 +127,10 @@
         <resource name="template" type="download" location="/bptemplates/projectbrief.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
     </content-template>
+    <content-template key="controlledpm-bptemplate-projectinitiationdocumentation" template-title-key="controlledpm.blueprint.projectinitiationdocumentation.title" i18n-name-key="controlledpm.blueprint.projectinitiationdocumentation.title">
+        <resource name="template" type="download" location="/bptemplates/projectinitiationdocumentation.xml" />
+        <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
+    </content-template>
     <content-template key="controlledpm-bptemplate-projectproductdescription" template-title-key="controlledpm.blueprint.projectproductdescription.title" i18n-name-key="controlledpm.blueprint.projectproductdescription.title">
         <resource name="template" type="download" location="/bptemplates/projectproductdescription.xml" />
         <context-provider class="com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider"/>
@@ -179,6 +183,7 @@
         <content-template ref="controlledpm-bptemplate-productdescription"/>
         <content-template ref="controlledpm-bptemplate-productstatusaccount"/>
         <content-template ref="controlledpm-bptemplate-projectbrief"/>
+        <content-template ref="controlledpm-bptemplate-projectinitiationdocumentation"/>
         <content-template ref="controlledpm-bptemplate-projectproductdescription"/>
         <content-template ref="controlledpm-bptemplate-qualitymanagementstrategy"/>
         <content-template ref="controlledpm-bptemplate-qualityregister"/>
