@@ -1,0 +1,48 @@
+{
+  "name": "Controlled PM for Confluence",
+  "description": "This is the Controlled PM plugin for Atlassian Confluence.",
+  "key": "com.davidkoudela.confluence.controlled-pm-for-confluence",
+  "baseUrl": "https://marketplace.atlassian.com/plugins/com.davidkoudela.confluence.controlled-pm-for-confluence/server/overview",
+  "vendor": {
+    "name": "David Koudela",
+    "url": "http://www.davidkoudela.com"
+  },
+  "authentication": {
+    "type": "none"
+  },
+  "apiVersion": 1,
+  "modules": {
+    "webItems": [
+      {
+        "key": "controlledpm-bptemplate-link",
+        "name": {
+          "value": "controlledpm.blueprint.link.title"
+        },
+        "location": "/images/blueprintIcon.png",
+        "url": "/images/blueprintIcon.png",
+        "context": "addon",
+        "tooltip": {
+          "value": "controlledpm.blueprint.link.description"
+        },
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        }
+      }
+    ],
+    "blueprints": [
+      {
+        "key": "controlledpm-bptemplate-benefitsreviewplan",
+        "name": {
+          "value": "controlledpm.blueprint.benefitsreviewplan.title"
+        },
+        "template": {
+          "url": "/bptemplates/benefitsreviewplan.xml",
+          "blueprintContext": {
+            "url": "/blueprints/context"
+          }
+        },
+        "createResult": "edit"
+      }
+    ]
+  }
+}

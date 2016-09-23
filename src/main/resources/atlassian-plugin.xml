@@ -163,7 +163,7 @@
         <param name="blueprintKey" value="controlledpm-blueprint" />
     </web-item>
 
-    <!--  Blueprint -->communicationmanagementstrategy
+    <!--  Blueprint -->
     <blueprint key="controlledpm-blueprint" index-key="controlledpm-index" i18n-name-key="controlledpm.blueprint.name">
         <content-template ref="controlledpm-bptemplate-benefitsreviewplan"/>
         <content-template ref="controlledpm-bptemplate-businesscase"/>
