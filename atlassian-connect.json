@@ -2,7 +2,7 @@
   "name": "Controlled PM for Confluence",
   "description": "This is the Controlled PM plugin for Atlassian Confluence.",
   "key": "com.davidkoudela.confluence.controlled-pm-for-confluence",
-  "baseUrl": "https://www.davidkoudela.cz/github/ControlledPmForConfluence/target/cloud",
+  "baseUrl": "http://www.davidkoudela.cz/github/ControlledPmForConfluence/target/cloud",
   "vendor": {
     "name": "David Koudela",
     "url": "http://www.davidkoudela.com"
