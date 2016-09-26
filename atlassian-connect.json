@@ -7,6 +7,11 @@
     "name": "David Koudela",
     "url": "http://www.davidkoudela.com"
   },
+  "links": {
+    "documentation": "https://github.com/dkoudela/controlled-pm-for-confluence/wiki",
+    "self": "{{localBaseUrl}}/atlassian-connect.json"
+  },
+  "version": "1.6",
   "authentication": {
     "type": "none"
   },
