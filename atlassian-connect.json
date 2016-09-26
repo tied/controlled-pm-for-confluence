@@ -31,9 +31,9 @@
     ],
     "blueprints": [
       {
-        "key": "controlledpm-bptemplate-benefitsreviewplan",
+        "key": "controlledpm-bptemplate-link",
         "name": {
-          "value": "controlledpm.blueprint.benefitsreviewplan.title"
+          "value": "Controlled Project Management"
         },
         "template": {
           "url": "/bptemplates/benefitsreviewplan.xml",
@@ -41,7 +41,10 @@
             "url": "/blueprints/context"
           }
         },
-        "createResult": "edit"
+        "createResult": "edit",
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        }
       }
     ]
   }
