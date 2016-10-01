@@ -123,6 +123,8 @@
 
                         <!-- Ensure plugin is spring powered -->
                         <Spring-Context>*</Spring-Context>
+
+                        <Main-Class>com.davidkoudela.confluence.controlledpm.cloud.connect.ControlledPMCloudConnectService</Main-Class>
                     </instructions>
                 </configuration>
             </plugin>
