@@ -1,7 +1,11 @@
 package com.davidkoudela.confluence.controlledpm.cloud.connect;
 
-import javax.xml.ws.Endpoint;
-import javax.xml.ws.http.HTTPBinding;
+import org.mortbay.http.SocketListener;
+import org.mortbay.jetty.Server;
+import org.mortbay.jetty.servlet.ServletHttpContext;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Description: Cloud Connect Service
@@ -14,12 +18,30 @@ import javax.xml.ws.http.HTTPBinding;
 public class ControlledPMCloudConnectService {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Hello World!");
-        String address = "http://127.0.0.1:8080/";
-        Endpoint.create(HTTPBinding.HTTP_BINDING, new ControlledPMWebServer()).publish(address);
 
-        System.out.println("Service running at " + address);
-        System.out.println("Type [CTRL]+[C] to quit!");
+        try {
+            Server server = new Server();
+            SocketListener listener = new SocketListener();
 
-        Thread.sleep(Long.MAX_VALUE);
+            System.out.println("Max Thread :" + listener.getMaxThreads() + " Min Thread :" + listener.getMinThreads());
+
+            listener.setHost("localhost");
+            listener.setPort(8080);
+            listener.setMinThreads(5);
+            listener.setMaxThreads(250);
+            server.addListener(listener);
+
+            ServletHttpContext context = (ServletHttpContext) server.getContext("/");
+            for (String resource : ControlledPMResourceManager.getResources()) {
+                context.addServlet(resource, ControlledPMWebServer.class.getCanonicalName());
+            }
+            System.out.println("Servlet set");
+
+            server.start();
+            server.join();
+        } catch (Exception ex) {
+            Logger.getLogger(ControlledPMCloudConnectService.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
     }
 }
