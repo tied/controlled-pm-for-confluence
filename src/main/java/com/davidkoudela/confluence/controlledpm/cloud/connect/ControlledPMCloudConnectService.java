@@ -26,7 +26,7 @@ public class ControlledPMCloudConnectService {
             System.out.println("Max Thread :" + listener.getMaxThreads() + " Min Thread :" + listener.getMinThreads());
 
             listener.setHost("localhost");
-            listener.setPort(8080);
+            listener.setPort(80);
             listener.setMinThreads(5);
             listener.setMaxThreads(250);
             server.addListener(listener);

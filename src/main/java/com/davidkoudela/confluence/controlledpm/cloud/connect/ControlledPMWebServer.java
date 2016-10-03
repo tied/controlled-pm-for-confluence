@@ -18,12 +18,6 @@ public class ControlledPMWebServer extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException
     {
-        String appid = httpServletRequest.getParameter("appid");
-        String conta = httpServletRequest.getParameter("conta");
-
-        System.out.println("Appid : "+appid);
-        System.out.println("Conta : "+conta);
-
         String contextPath = httpServletRequest.getServletPath();
         if (contextPath.endsWith(".png")) {
             httpServletResponse.setContentType("application/octet-stream;charset=UTF-8");
