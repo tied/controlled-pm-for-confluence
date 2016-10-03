@@ -47,25 +47,8 @@ public class ControlledPMResourceManager {
     }
 
     public static InputStream getResourceStream(String resource) throws IOException {
-        final File jarFile = new File(ControlledPMResourceManager.class.getProtectionDomain().getCodeSource().getLocation().getPath());
-        InputStream in = null;
-        if (jarFile.isFile()) { // Executed from JRE directly
-            final JarFile jar = new JarFile(jarFile);
-            final Enumeration<JarEntry> entries = jar.entries(); //gives ALL entries in jar
-            while(entries.hasMoreElements()) {
-                final JarEntry jarEntry = entries.nextElement();
-                System.out.println("Entry: "+jarEntry.getName());
-                String strend = resource.substring(1, resource.length());
-                if (jarEntry.getName().endsWith(strend)) {
-                    in = new BufferedInputStream(jar.getInputStream(jarEntry));
-                    break;
-                }
-            }
-            //jar.close();
-        } else { // Executed from IDE
-            File theResourceFile = new File(jarFile.getAbsolutePath() + resource);
-            in = new FileInputStream(theResourceFile);
-        }
+        String resourcePath = resource.substring(1, resource.length());
+        InputStream in = ControlledPMResourceManager.class.getClassLoader().getResourceAsStream(resourcePath);
         return in;
     }
 }
