@@ -17,8 +17,6 @@ import java.util.logging.Logger;
  */
 public class ControlledPMCloudConnectService {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Hello World!");
-
         try {
             Server server = new Server();
             SocketListener listener = new SocketListener();

@@ -1,6 +1,9 @@
 package com.davidkoudela.confluence.controlledpm.cloud.connect;
 
+import com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider;
+
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.LinkedList;
 import java.util.List;
@@ -16,10 +19,13 @@ import java.util.jar.JarFile;
  * @since 2016-10-01
  */
 public class ControlledPMResourceManager {
+    private static final String CONTEXT_PATH = "/bptemplates/context";
+
     public static List<String> getResources() throws IOException {
         final File jarFile = new File(ControlledPMResourceManager.class.getProtectionDomain().getCodeSource().getLocation().getPath());
         final String[] filters = { "bptemplates", "images" };
         List<String> resources = new LinkedList<String>();
+        resources.add(CONTEXT_PATH);
         if (jarFile.isFile()) { // Executed from JRE directly
             final JarFile jar = new JarFile(jarFile);
             final Enumeration<JarEntry> entries = jar.entries(); //gives ALL entries in jar
@@ -47,8 +53,19 @@ public class ControlledPMResourceManager {
     }
 
     public static InputStream getResourceStream(String resource) throws IOException {
-        String resourcePath = resource.substring(1, resource.length());
-        InputStream in = ControlledPMResourceManager.class.getClassLoader().getResourceAsStream(resourcePath);
-        return in;
+        if (0 == resource.compareTo(CONTEXT_PATH)) {
+            try {
+                byte[] bytes = ControlledPMContextProvider.retriveUpdatedBlueprintContext().getBytes(StandardCharsets.UTF_8);
+                InputStream in = new ByteArrayInputStream(bytes);
+                return in;
+            } catch (Throwable t){
+                System.out.println(t);
+            }
+            return null;
+        } else {
+            String resourcePath = resource.substring(1, resource.length());
+            InputStream in = ControlledPMResourceManager.class.getClassLoader().getResourceAsStream(resourcePath);
+            return in;
+        }
     }
 }

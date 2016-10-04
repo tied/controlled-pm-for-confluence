@@ -65,6 +65,12 @@ branches:
 # Never build a label for the model tracking purposes.
         - /^model_v[0-9][0-9\.]*.*/
 
+deploy:
+    provider: heroku
+    api_key: ...
+    app: controlledpm
+    on: master
+
 cache:
 # Caching is not allowed for 'sudo: required' builds.
 # It is kept for future usage.

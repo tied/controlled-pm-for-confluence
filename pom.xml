@@ -58,7 +58,12 @@
             <groupId>com.atlassian.confluence.plugins</groupId>
             <artifactId>confluence-create-content-plugin</artifactId>
             <version>${create.content.version}</version>
-            <scope>provided</scope>
+            <!--scope>provided</scope-->
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webfragment-api</artifactId>
+            <version>4.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.jacoco</groupId>
