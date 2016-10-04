@@ -67,7 +67,8 @@ branches:
 
 deploy:
     provider: heroku
-    api_key: ...
+    api_key:
+        secure: "$HEROKUKEY"
     app: controlledpm
     on: master
 
