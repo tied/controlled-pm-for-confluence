@@ -1,6 +1,6 @@
 package com.davidkoudela.confluence.controlledpm.cloud.connect;
 
-import com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider;
+import com.davidkoudela.confluence.controlledpm.context.ControlledPMCloudContextProvider;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -55,7 +55,7 @@ public class ControlledPMResourceManager {
     public static InputStream getResourceStream(String resource) throws IOException {
         if (0 == resource.compareTo(CONTEXT_PATH)) {
             try {
-                byte[] bytes = ControlledPMContextProvider.retriveUpdatedBlueprintContext().getBytes(StandardCharsets.UTF_8);
+                byte[] bytes = ControlledPMCloudContextProvider.retriveContext().getBytes(StandardCharsets.UTF_8);
                 InputStream in = new ByteArrayInputStream(bytes);
                 return in;
             } catch (Throwable t){

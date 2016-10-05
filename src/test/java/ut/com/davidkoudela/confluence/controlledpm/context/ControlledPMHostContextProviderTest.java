@@ -1,7 +1,7 @@
 package ut.com.davidkoudela.confluence.controlledpm.context;
 
 import com.atlassian.confluence.plugins.createcontent.api.contextproviders.BlueprintContext;
-import com.davidkoudela.confluence.controlledpm.context.ControlledPMContextProvider;
+import com.davidkoudela.confluence.controlledpm.context.ControlledPMHostContextProvider;
 import junit.framework.Assert;
 import org.junit.Test;
 
@@ -10,14 +10,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Description: Testing {@link ControlledPMContextProvider}
+ * Description: Testing {@link ControlledPMHostContextProvider}
  * Copyright (C) 2016 David Koudela
  *
  * @author dkoudela
  * @since 2016-04-28
  */
-public class ControlledPMContextProviderTest {
-    class ControlledPMContextProviderDummy extends ControlledPMContextProvider {
+public class ControlledPMHostContextProviderTest {
+    class ControlledPMHostContextProviderDummy extends ControlledPMHostContextProvider {
         public BlueprintContext updateBlueprintContext(BlueprintContext blueprintContext) {
             return super.updateBlueprintContext(blueprintContext);
         }
@@ -25,7 +25,7 @@ public class ControlledPMContextProviderTest {
 
     @Test
     public void testUpdateBlueprintContext() {
-        ControlledPMContextProviderDummy controlledPMContextProviderDummy = new ControlledPMContextProviderDummy();
+        ControlledPMHostContextProviderDummy controlledPMContextProviderDummy = new ControlledPMHostContextProviderDummy();
         BlueprintContext blueprintContext1 = new BlueprintContext();
         BlueprintContext blueprintContext2 = new BlueprintContext();
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
