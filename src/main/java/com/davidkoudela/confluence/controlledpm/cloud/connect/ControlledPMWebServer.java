@@ -1,11 +1,11 @@
 package com.davidkoudela.confluence.controlledpm.cloud.connect;
-
+/*
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-
+*/
 /**
  * Description: Web Service
  *              Right now it is for testing purposes
@@ -14,7 +14,7 @@ import java.io.*;
  * @author dkoudela
  * @since 2016-09-30
  */
-public class ControlledPMWebServer extends HttpServlet {
+public class ControlledPMWebServer /*extends HttpServlet*/ {/*
     @Override
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException
     {
@@ -40,5 +40,5 @@ public class ControlledPMWebServer extends HttpServlet {
         }
         out.close();
         in.close();
-    }
+    }*/
 }

@@ -59,6 +59,7 @@
             <artifactId>confluence-create-content-plugin</artifactId>
             <version>${create.content.version}</version>
             <!--scope>provided</scope-->
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
@@ -73,11 +74,11 @@
             <scope>test</scope>
         </dependency>
         <!-- Standalone service dependencies -->
-        <dependency>
+        <!--dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet</artifactId>
             <version>3.0.0.v201103241009</version>
-        </dependency>
+        </dependency-->
         <!--dependency>
             <groupId>org.mortbay.jetty</groupId>
             <artifactId>jetty</artifactId>
@@ -268,7 +269,7 @@
     <properties>
         <confluence.version>5.9.6</confluence.version>
         <confluence.data.version>5.9.6</confluence.data.version>
-        <amps.version>6.2.6</amps.version>
+        <amps.version>6.2.3</amps.version>
         <plugin.testrunner.version>1.2.3</plugin.testrunner.version>
         <atlassian.spring.scanner.version>1.2.6</atlassian.spring.scanner.version>
         <!-- This key is used to keep the consistency between the key in atlassian-plugin.xml and the key to generate bundle. -->
