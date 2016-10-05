@@ -1,12 +1,12 @@
 package com.davidkoudela.confluence.controlledpm.cloud.connect;
-
+/*
 import org.mortbay.http.SocketListener;
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.servlet.ServletHttpContext;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+*/
 /**
  * Description: Cloud Connect Service
  *              Right now it is for testing purposes
@@ -17,6 +17,7 @@ import java.util.logging.Logger;
  */
 public class ControlledPMCloudConnectService {
     public static void main(String[] args) throws InterruptedException {
+        /*
         try {
             Server server = new Server();
             SocketListener listener = new SocketListener();
@@ -40,6 +41,6 @@ public class ControlledPMCloudConnectService {
         } catch (Exception ex) {
             Logger.getLogger(ControlledPMCloudConnectService.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+*/
     }
 }
