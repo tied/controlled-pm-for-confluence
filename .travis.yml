@@ -69,11 +69,11 @@ branches:
 deploy:
     provider: heroku
     api_key:
-        secure: $HEROKUKEY
+        - secure: $HEROKUKEY
     app: controlledpm
     on:
-       repo: $TRAVIS_REPO_SLUG
-       branch: master
+       - repo: $TRAVIS_REPO_SLUG
+       - branch: master
 
 cache:
 # Caching is not allowed for 'sudo: required' builds.
