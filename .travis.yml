@@ -66,6 +66,7 @@ branches:
 # Never build a label for the model tracking purposes.
         - /^model_v[0-9][0-9\.]*.*/
 
+before_deploy: "git status"
 deploy:
     provider: heroku
     api_key:
