@@ -30,9 +30,10 @@ script:
     - jdk_switcher use oraclejdk8
 # Unit tests are part of the Integration tests.
 # It is kept only for further test downgrade
-    - sudo atlas-unit-test
+#    - sudo atlas-unit-test
 # Disabled atlas-integration-test to allow deploy on Heroku once
 #    - sudo atlas-integration-test
+    - sudo atlas-package
 
 after_success:
 # Create GIT tag
