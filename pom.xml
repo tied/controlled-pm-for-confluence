@@ -18,10 +18,10 @@
     <description>This is the Controlled PM plugin for Atlassian Confluence.</description>
     <packaging>atlassian-plugin</packaging>
 
+    <!-- Atlassian Repository for HEROKU deployment. -->
     <pluginRepositories>
-        <!-- Atlassian Repository for HEROKU deployment. -->
         <pluginRepository>
-            <id>atlassian-public</id>
+            <id>atlassian-public1</id>
             <url>https://maven.atlassian.com/repository/public</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -33,7 +33,22 @@
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
         </pluginRepository>
+        <pluginRepository>
+            <id>atlassian-public2</id>
+            <url>https://maven.atlassian.com/repository/atlassian-public</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </pluginRepository>
+
     </pluginRepositories>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
