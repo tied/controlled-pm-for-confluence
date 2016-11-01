@@ -21,8 +21,8 @@
     <repositories>
         <!-- Atlassian Repository for HEROKU deployment. -->
         <repository>
-            <id>Atlassian Public</id>
-            <url>https://maven.atlassian.com/content/repositories/atlassian-public</url>
+            <id>atlassian-public</id>
+            <url>https://maven.atlassian.com/repository/public</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>never</updatePolicy>
