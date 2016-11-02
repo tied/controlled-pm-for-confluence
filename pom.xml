@@ -19,9 +19,37 @@
     <packaging>atlassian-plugin</packaging>
 
     <!-- Atlassian Repository for HEROKU deployment. -->
+    <repositories>
+        <repository>
+            <id>atlassian-public1</id>
+            <url>https://maven.atlassian.com/repository/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </repository>
+        <repository>
+            <id>atlassian-public2</id>
+            <url>https://maven.atlassian.com/repository/atlassian-public</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </repository>
+    </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>atlassian-public1</id>
+            <id>atlassian-public3</id>
             <url>https://maven.atlassian.com/repository/public</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -34,7 +62,7 @@
             </releases>
         </pluginRepository>
         <pluginRepository>
-            <id>atlassian-public2</id>
+            <id>atlassian-public4</id>
             <url>https://maven.atlassian.com/repository/atlassian-public</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -46,7 +74,6 @@
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
         </pluginRepository>
-
     </pluginRepositories>
 
     <dependencies>
