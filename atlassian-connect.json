@@ -9,7 +9,7 @@
   },
   "links": {
     "documentation": "https://github.com/dkoudela/controlled-pm-for-confluence/wiki",
-    "self": "{{localBaseUrl}}/atlassian-connect.json"
+    "self": "https://raw.githubusercontent.com/dkoudela/controlled-pm-for-confluence/master/atlassian-connect.json"
   },
   "version": "1.6",
   "authentication": {
