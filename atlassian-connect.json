@@ -36,7 +36,7 @@
     ],
     "blueprints": [
       {
-        "key": "controlledpm-bptemplate-link",
+        "key": "controlledpm-bptemplate-benefitsreviewplan",
         "name": {
           "value": "Controlled Project Management"
         },
