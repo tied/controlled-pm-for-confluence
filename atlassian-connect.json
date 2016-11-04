@@ -17,23 +17,6 @@
   },
   "apiVersion": 1,
   "modules": {
-    "webItems": [
-      {
-        "key": "controlledpm-bptemplate-link",
-        "name": {
-          "value": "controlledpm.blueprint.link.title"
-        },
-        "location": "/images/blueprintIcon.png",
-        "url": "/images/blueprintIcon.png",
-        "context": "addon",
-        "tooltip": {
-          "value": "controlledpm.blueprint.link.description"
-        },
-        "icon": {
-          "url": "/images/blueprintIcon.png"
-        }
-      }
-    ],
     "blueprints": [
       {
         "key": "controlledpm-bptemplate-benefitsreviewplan",
