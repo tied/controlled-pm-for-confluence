@@ -11,7 +11,6 @@ import java.util.List;
  *
  * @author dkoudela
  * @since 2016-10-05
- * Created by dkoudela on 05 Oct 16.
  */
 public class ControlledPMCloudContextProvider {
     public static String retriveContext() {
