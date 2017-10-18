@@ -1,0 +1,1 @@
+web: java -jar target/controlled-pm-for-confluence-1.6.jar

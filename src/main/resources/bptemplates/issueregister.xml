@@ -1,0 +1,85 @@
+<h1>Issue Register</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Register Contents</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Issue ID</th>
+        <th>Issue Type</th>
+        <th>Date Registered</th>
+        <th>Reported By</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Priority</th>
+        <th>Severity</th>
+        <th>Status</th>
+        <th>Date of last update</th>
+        <th>Closure Date</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Provides a unique reference for every issue entered into the Issue Register.</ac:placeholder></td>
+        <td><ac:placeholder>Defines the type of issue being recorded, namely: Request for Change/Off-Specification/Problem or concern.</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Describe the issue.</ac:placeholder></td>
+        <td><ac:placeholder>This should be given in terms of the project's chosen categories. Priority should be re-evaluated after impact analysis.</ac:placeholder></td>
+        <td><ac:placeholder>This should begiven in terms of the project's chosen scale. Severity will indicate what level of management is required to make a decision on the issue.</ac:placeholder></td>
+        <td><ac:placeholder>The current status of the issue.</ac:placeholder></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+</tbody>
+</table>

@@ -1,0 +1,141 @@
+<h1>Configuration Item Record</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Unique Identifier</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Project Identifier</th>
+        <th>Item Identifier</th>
+        <th>Current Version</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Project Identifier – A unique reference.  It will typically be a numeric or alpha-numeric value</ac:placeholder></td>
+        <td><ac:placeholder>Item Identifier – A unique reference.  It will typically be a numeric or alpha-numeric value</ac:placeholder></td>
+        <td><ac:placeholder>Current Version – Typically an alpha-numeric value</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Item Title</h2>
+<ac:placeholder>The description of the item (for a product this should be as it appears in the product breakdown structure)</ac:placeholder>
+
+<table>
+<tbody>
+    <tr>
+        <th>Date of last Status Change</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Owner</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td><ac:placeholder>Where the item is stored</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Copy Holders</th>
+        <td><ac:placeholder>(if relevant), who currently has the product?</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Item Type</th>
+        <td><ac:placeholder>Component, product, release</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Item Attributes</th>
+        <td><ac:placeholder>As defined by the Configuration Management Strategy. These are used to specify a subset of products when producing a Product Status Account, such as the management stage in which the product is created, the type of product (e.g. hardware/ software), product destination etc.</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Stage</th>
+        <td><ac:placeholder>When the product will be developed</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Users</th>
+        <td><ac:placeholder>The person or group who will use the item</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td><ac:placeholder>As defined by the Configuration Management Strategy, e.g. pending development, in development, in review, approved or handed over</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Product State</th>
+        <td><ac:placeholder>(if used)  As defined by the Product Description, e.g. dismantled machinery, moved machinery, reassembled machinery</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Variant</th>
+        <td><ac:placeholder>(if used) for example, language variants</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Producer</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date Allocated to the producer</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Source</th>
+        <td><ac:placeholder>For example, in house, or purchased from a third-party company</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Relationship with other items</th>
+        <td><ac:placeholder>Those items that: Would be affected if this item changed; or if changed, would affect this item</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Cross References</th>
+        <td><ac:placeholder>Issues and risks; or documentation that defines requirements, design, build, production and verification for the item (specifically this will include the Product Description)</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+

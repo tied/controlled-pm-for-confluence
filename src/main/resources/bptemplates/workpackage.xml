@@ -1,0 +1,131 @@
+<h1>Work Package</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+    <tr>
+        <th colspan="2">Work Package Authorisation</th>
+    </tr>
+    <tr>
+        <th>Title</th>
+        <td><ac:placeholder>Title</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Person Authorised</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Description</h2>
+<ac:placeholder>A description of the work to be done</ac:placeholder>
+
+<h2>Techniques, Processes and Procedures</h2>
+<ac:placeholder>Any techniques, tools, standards, processes or procedures to be used in the creation of the specialist products</ac:placeholder>
+
+<h2>Development Interfaces</h2>
+<ac:placeholder>Interfaces that must be maintained while developing the products. These may be people providing information or those who need to receive information</ac:placeholder>
+
+<h2>Operations and Maintenance Interfaces</h2>
+<ac:placeholder>Identification of any specialist products with which the product(s) in the Work Package will have to interface during their operational life. These may be other products to be produced by the project, existing products, or those to be produced by other projects (for example, if the project is part of a programme</ac:placeholder>
+
+<h2>Configuration Management Requirements</h2>
+<ac:placeholder>A statement of any arrangements that must be made by the producer for: version control of the products in the Work Package; obtaining copies of other products or their Product Descriptions; submission of the product to configuration management; any storage or security requirements; and who, if anyone, needs to be advised of changes in the status of the Work Package</ac:placeholder>
+
+<h2>Joint Agreements</h2>
+<ac:placeholder>Details of the agreements on effort, cost, start and end dates, and key milestones for the Work Package</ac:placeholder>
+
+<h2>Tolerances</h2>
+<ac:placeholder>Details of the tolerances for the Work Package (the tolerances will be for time and cost but may also include scope and risk)</ac:placeholder>
+
+<h2>Constraints</h2>
+<ac:placeholder>Any constraints (apart from the tolerances) on the work, people to be involved, timings, charges, rules to be followed (for example, security and safety) etc.)</ac:placeholder>
+
+<h2>Reporting Arrangements</h2>
+<ac:placeholder>The expected frequency and content of Checkpoint Reports</ac:placeholder>
+
+<h2>Problem Handling and Escalation</h2>
+<ac:placeholder>This refers to the procedure for raising issues and risks</ac:placeholder>
+
+<h2>Extracts or References</h2>
+<ac:placeholder>Any extracts or references to related documents, specifically:</ac:placeholder>
+<ac:placeholder>Stage Plan extract This will be the relevant section of the Stage Plan for the current management stage or will be a pointer to it</ac:placeholder>
+<ac:placeholder>Product Description(s) This would normally be an attachment of the Product Description(s) for the products identified in the Work Package (note that the Product Description contains the quality methods to be used</ac:placeholder>
+
+<h2>Approval method</h2>
+<ac:placeholder>The person, role or group who will approve the completed products within the Work Package, and how the Project Manager is to be advised of completion of the products and Work Package</ac:placeholder>
+
+<table>
+<tbody>
+    <tr>
+        <th colspan="2">Work Package Acceptance</th>
+    </tr>
+    <tr>
+        <th>Person Accepting</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Assessment and feedback</th>
+        <td><ac:placeholder>This can be used by the person accepting the work package to provide comments on the work package possibly to go towards performance appraisal for the individual or teams involved</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+

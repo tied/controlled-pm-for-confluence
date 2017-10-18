@@ -1,0 +1,39 @@
+{
+  "name": "Controlled PM for Confluence",
+  "description": "This is the Controlled PM plugin for Atlassian Confluence.",
+  "key": "com.davidkoudela.confluence.controlled-pm-for-confluence",
+  "baseUrl": "https://controlledpm.herokuapp.com",
+  "vendor": {
+    "name": "David Koudela",
+    "url": "http://www.davidkoudela.com"
+  },
+  "links": {
+    "documentation": "https://github.com/dkoudela/controlled-pm-for-confluence/wiki",
+    "self": "https://raw.githubusercontent.com/dkoudela/controlled-pm-for-confluence/master/atlassian-connect.json"
+  },
+  "version": "1.6",
+  "authentication": {
+    "type": "none"
+  },
+  "apiVersion": 1,
+  "modules": {
+    "blueprints": [
+      {
+        "key": "controlledpm-bptemplate-benefitsreviewplan",
+        "name": {
+          "value": "Controlled Project Management"
+        },
+        "template": {
+          "url": "/bptemplates/benefitsreviewplan.xml",
+          "blueprintContext": {
+            "url": "/bptemplates/context"
+          }
+        },
+        "createResult": "edit",
+        "icon": {
+          "url": "/images/blueprintIcon.png"
+        }
+      }
+    ]
+  }
+}

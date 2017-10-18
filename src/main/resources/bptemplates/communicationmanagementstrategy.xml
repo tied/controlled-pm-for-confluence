@@ -1,0 +1,118 @@
+<h1>Communication Management Strategy</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Introduction</h2>
+<ac:placeholder>States the purpose, objectives and scope, and identifies who is responsible for the strategy</ac:placeholder>
+
+<h2>Communications Procedure</h2>
+<ac:placeholder>A description of (or reference to) any communication methods to be used. Any variance from corporate or programme management standards should be highlighted, together with a justification for the variance</ac:placeholder>
+
+<h2>Tools and Techniques</h2>
+<ac:placeholder>Refers to any communication tools to be used, and any preference for techniques that may be used, for each step in the communication process</ac:placeholder>
+
+<h2>Records</h2>
+<ac:placeholder>Definition of what communication records will be required and where they will be stored (for example, logging of external correspondence)</ac:placeholder>
+
+<h2>Reporting</h2>
+<ac:placeholder>Describes any reports on the communication process that are to be produced, including their purpose, timing and recipients (for example, performance indicators)</ac:placeholder>
+
+<h2>Timing of Communication Activities</h2>
+<ac:placeholder>States when formal communication activities are to be undertaken (for example, at the end of a stage) including performance audits of the communication methods</ac:placeholder>
+
+<h2>Roles and Responsibilities</h2>
+<ac:placeholder>Describes who will be responsible for what aspects of the communication process, including any corporate or programme management roles involved with communication</ac:placeholder>
+
+<h3>Stakeholder Analysis</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Interested Party</th>
+        <th>Current Relationship</th>
+        <th>Desired Relationship</th>
+        <th>Interfaces</th>
+        <th>Key Messages</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Current Relationship</ac:placeholder></td>
+        <td><ac:placeholder>Desired Relationship</ac:placeholder></td>
+        <td><ac:placeholder>Interfaces</ac:placeholder></td>
+        <td><ac:placeholder>Key Messages</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h3>Information Needs</h3>
+<table>
+<tbody>
+    <tr>
+        <th>Interested Party</th>
+        <th>Information for Distribution</th>
+        <th>Information for Collection</th>
+        <th>Information Provider and Recipient</th>
+        <th>Frequency of Communication</th>
+        <th>Means of Communication</th>
+        <th>Format of Communication</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Information for Distribution</ac:placeholder></td>
+        <td><ac:placeholder>Information for Collection</ac:placeholder></td>
+        <td><ac:placeholder>Information Provider and Recipient</ac:placeholder></td>
+        <td><ac:placeholder>Frequency of Communication</ac:placeholder></td>
+        <td><ac:placeholder>Means of Communication</ac:placeholder></td>
+        <td><ac:placeholder>Format of Communication</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>

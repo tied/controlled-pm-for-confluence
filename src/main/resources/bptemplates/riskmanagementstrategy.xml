@@ -1,0 +1,148 @@
+<h1>Risk Management Strategy</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+
+<h2>Introduction</h2>
+<p>
+<ac:placeholder>States the purpose, objectives and scope, and identifies who is responsible for the strategy</ac:placeholder>
+</p>
+
+<h2>Risk Management Procedure</h2>
+<p>
+<ac:placeholder>A description of (or reference to) the risk management procedure to be used. Any variance from corporate or programme management standards should be highlighted, together with a justification for the variance. The procedure should cover activities such as:</ac:placeholder>
+</p>
+
+<h3>Identify</h3>
+<p>
+<ac:placeholder>Identify</ac:placeholder>
+</p>
+
+<h3>Assess</h3>
+<p>
+<ac:placeholder>Assess</ac:placeholder>
+</p>
+
+<h3>Plan</h3>
+<p>
+<ac:placeholder>Plan</ac:placeholder>
+</p>
+
+<h3>Implement</h3>
+<p>
+<ac:placeholder>Implement</ac:placeholder>
+</p>
+
+<h3>Communicate</h3>
+<p>
+<ac:placeholder>Communicate</ac:placeholder>
+</p>
+
+<h2>Tools and Techniques</h2>
+<p>
+<ac:placeholder>Refers to any risk management systems or tools to be used, and any preference for techniques which may be used for each step in the risk management procedure</ac:placeholder>
+</p>
+
+<h2>Records</h2>
+<p>
+<ac:placeholder>Definition of the composition and format of the Risk Register and any other risk records to be used by the project</ac:placeholder>
+</p>
+
+<h2>Reporting</h2>
+<p>
+<ac:placeholder>Describes any risk management reports that are to be produced, including their purpose, timing and recipients</ac:placeholder>
+</p>
+
+<h2>Timing of Risk Management Activities</h2>
+<p>
+<ac:placeholder>States when formal risk management activities are to be undertaken - for example, at end stage assessments</ac:placeholder>
+</p>
+
+<h2>Roles and Responsibilities</h2>
+<p>
+<ac:placeholder>Defines the roles and responsibilities for risk management activities</ac:placeholder>
+</p>
+
+<h2>Scales</h2>
+<p>
+<ac:placeholder>Defines the scales for estimating probability and impact for the project to ensure that the scales for cost and time (for instance) are relevant to the cost and timeframe of the project. These may be shown in the form of probability impact grids giving the criteria for each level within the scale, e.g. for ‘very high’, ‘high’, ‘medium’, ‘low’ and ‘very low’</ac:placeholder>
+</p>
+
+<h2>Proximity</h2>
+<p>
+<ac:placeholder>Guidance on how proximity for risk events is to be assessed. Proximity reflects the fact that risks will occur at particular times and the severity of their impact will vary according to when they occur. Typical proximity categories will be: imminent, within the stage, within the project, beyond the project</ac:placeholder>
+</p>
+
+<h2>Risk Categories</h2>
+<p>
+<ac:placeholder>Definition of the risk categories to be used (if at all). These may be derived from a risk breakdown structure or prompt list. If no risks have been recorded against a category, this may suggest that the risk identification has not been as thorough as it should have been</ac:placeholder>
+</p>
+
+<h2>Risk Response Categories</h2>
+<p>
+<ac:placeholder>Definition of the risk response categories to be used, which themselves depend on whether a risk is a perceived threat or an opportunity</ac:placeholder>
+</p>
+
+<h2>Early-warning Indicators</h2>
+<p>
+<ac:placeholder>Definition of any indicators to be used to track critical aspects of the project so that if certain predefined levels are reached, corrective action will be triggered. They will be selected for their relevance to the project objectives</ac:placeholder>
+</p>
+
+<h2>Risk Tolerance</h2>
+<p>
+<ac:placeholder>Defining the threshold levels of risk exposure, which, when exceeded, require the risk to be escalated to the next level of management. (For example, a project-level risk tolerance could be set as any risk that, should it occur, would result in loss of trading. Such risks would need to be escalated to corporate or programme management.) The risk tolerance should define the risk expectations of corporate or programme management and the Project Board</ac:placeholder>
+</p>
+
+<h2>Risk Budget</h2>
+<p>
+<ac:placeholder>Describing whether a risk budget is to be established and, if so, how it will be used</ac:placeholder>
+</p>

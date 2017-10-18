@@ -1,0 +1,71 @@
+<h1>Exception Report</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Title</h2>
+<ac:placeholder>An overview of the exception being reported</ac:placeholder>
+
+<h2>Cause</h2>
+<ac:placeholder>A description of the cause of a deviation from the current plan</ac:placeholder>
+
+<h2>Consequences</h2>
+<ac:placeholder>What the implications are if the deviation is not addressed for the project, Corporate or Programme Management</ac:placeholder>
+
+<h2>Options</h2>
+<ac:placeholder>What are the options that are available to address the deviation and what would the effect of each option be on the Business Case, risks and tolerances</ac:placeholder>
+
+<h2>Recommendation</h2>
+<ac:placeholder>Of the available options, what is the recommendation, and why?</ac:placeholder>
+
+<h2>Lessons</h2>
+<ac:placeholder>What can be learned from the exception, on this project or future projects</ac:placeholder>
+

@@ -1,0 +1,120 @@
+<h1>End Stage Report</h1>
+
+<table>
+<tbody>
+    <tr>
+        <th>Document ID:</th>
+        <td><ac:placeholder>Enter your Document ID here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Project Name:</th>
+        <td><ac:placeholder>Enter your Project Name here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Date:</th>
+        <td><at:var at:name="currentDate" at:rawxhtml="true"/></td>
+    </tr>
+    <tr>
+        <th>Release:</th>
+        <td><ac:placeholder>Draft/Final</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Author:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+    <tr>
+        <th>Client:</th>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Distribution</h2>
+<table>
+<tbody>
+    <tr>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+    <tr>
+        <td><ac:placeholder ac:type="mention">@usermention</ac:placeholder></td>
+        <td><ac:placeholder>Enter Title here</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Project Manager’s Report</h2>
+<ac:placeholder>Summarizing the stage performance</ac:placeholder>
+
+<h2>Review of the Business Case</h2>
+<ac:placeholder>Summarizing the validity of the project’s Business Case</ac:placeholder>
+
+<h2>Benefits achieved to date</h2>
+<ac:placeholder>Benefits achieved to date</ac:placeholder>
+
+<h2>Residual benefits expected</h2>
+<ac:placeholder>Remaining stages and post-project</ac:placeholder>
+
+<h2>Expected net benefits</h2>
+<ac:placeholder>Expected net benefits</ac:placeholder>
+
+<h2>Deviations from the approved Business Case</h2>
+<ac:placeholder>Deviations from the approved Business Case</ac:placeholder>
+
+<h2>Aggregated risk exposure</h2>
+<ac:placeholder>Aggregated risk exposure</ac:placeholder>
+
+<h2>Review of Project Objectives</h2>
+<ac:placeholder>Review of how the project has performed to date against its planned targets and tolerances for time, cost, quality, scope, benefits and risk. Review the effectiveness of the project’s strategies and controls</ac:placeholder>
+
+<h2>Review of Stage Objectives</h2>
+<ac:placeholder>Review of how the specific stage performed against its planned targets and tolerances for time, cost, quality, scope, benefits and risk</ac:placeholder>
+
+<h2>Review of Team Performance</h2>
+<ac:placeholder>In particular, providing recognition for good performance</ac:placeholder>
+
+<h2>Lessons Report</h2>
+<ac:placeholder>A review of what went well, what went badly, and any recommendations for corporate or programme management consideration</ac:placeholder>
+
+<h2>Issues and Risks</h2>
+<ac:placeholder>Summary of the current set of issues and risks affecting the project</ac:placeholder>
+
+<h2>Forecast</h2>
+<ac:placeholder>The Project Manager’s forecast for the project and next stage against planned targets and tolerances for time, cost, quality, scope, benefits and risk</ac:placeholder>
+
+<h2>Review of Products</h2>
+<table>
+<tbody>
+    <tr>
+        <th rowspan="2">Product Name</th>
+        <th colspan="2">Quality Records</th>
+        <th rowspan="2">Approval Records</th>
+        <th rowspan="2">Off-specifications</th>
+    </tr>
+    <tr>
+        <th>Planned</th>
+        <th>Completed</th>
+    </tr>
+    <tr>
+        <td><ac:placeholder>Product Name</ac:placeholder></td>
+        <td><ac:placeholder>Quality activities planned in the stage.</ac:placeholder></td>
+        <td><ac:placeholder>Quality activities completed in the stage.</ac:placeholder></td>
+        <td><ac:placeholder>The Requisite approvals for each Product planned for completion in the stage.</ac:placeholder></td>
+        <td><ac:placeholder>Any missing products or products which do not meet the original requirements, and confirmation of any concessions granted.</ac:placeholder></td>
+    </tr>
+</tbody>
+</table>
+
+<h2>Phased Handover</h2>
+<ac:placeholder>(If applicable) Confirmation by the customer that operations and maintenance functions are ready to receive the release</ac:placeholder>
+
+<h2>Summary of Follow-on Action Recommendations</h2>
+<ac:placeholder>(If applicable) Request for Project Board advice about who should receive each recommended action. The recommended actions are related to unfinished work, ongoing issues and risks, and any other activities needed to take the products handed over to the next phase of their life</ac:placeholder>
